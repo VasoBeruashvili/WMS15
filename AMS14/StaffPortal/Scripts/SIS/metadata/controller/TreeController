@@ -1,0 +1,89 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "TreeController",
+        "models": [
+            "TreeModel"
+        ],
+        "stores": [
+            "MyTreeStore"
+        ],
+        "views": [
+            "MyTreePanel"
+        ]
+    },
+    "designerId": "47697c50-3294-4e29-ba0d-b80697f41c7f",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "navtree",
+                "selector": "mytreepanel#MenuTree"
+            },
+            "designerId": "7fa809f0-2565-4170-a9d1-a961b283e005"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#MenuTree",
+                "designer|targetType": "Ext.tree.Panel",
+                "fn": "NodeSelected",
+                "implHandler": [
+                    "if(record.data.FormID!==null&&record.data.FormID!==undefined)\r",
+                    "{\r",
+                    "    var Form=record.data.Form;\r",
+                    "    \r",
+                    "    var conf = {title:Form.Title,closable:true,closeAction:'destroy'};\r",
+                    "    \r",
+                    "    var View=Ext.create(Form.ClassName,{});\r",
+                    "    \r",
+                    "    NewTab(View, Form.Title);\r",
+                    "}\r",
+                    "\r",
+                    "if(record.get('id') === 14){\r",
+                    "    fileDownload('/Home/GetAttachmentFile',{\r",
+                    "        windowid: GetWindowId()\r",
+                    "    });\r",
+                    "}"
+                ],
+                "name": "itemclick",
+                "scope": "me"
+            },
+            "designerId": "94809621-8536-421d-9f0f-44cd0b7f1cb1"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#MenuTree",
+                "designer|targetType": "Ext.tree.Panel",
+                "fn": "onTreepanelAfterRender",
+                "implHandler": [
+                    "component.expandAll();"
+                ],
+                "name": "afterrender",
+                "scope": "me"
+            },
+            "designerId": "d5fa326b-901a-4487-a193-832d55f500f5"
+        }
+    ]
+}

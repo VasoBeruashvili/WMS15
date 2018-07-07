@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="StoreContainer">
+          <EntitySet Name="Balances" EntityType="Store.Balances" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Customers" EntityType="Store.Customers" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Details" EntityType="Store.Details" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Distributors" EntityType="Store.Distributors" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Files" EntityType="Store.Files" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Forms" EntityType="Store.Forms" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="MenuItems" EntityType="Store.MenuItems" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Operations" EntityType="Store.Operations" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Products" EntityType="Store.Products" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SizeUnits" EntityType="Store.SizeUnits" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Users" EntityType="Store.Users" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Balances_SizeUnits" Association="Store.FK_Balances_SizeUnits">
+            <End Role="SizeUnits" EntitySet="SizeUnits" />
+            <End Role="Balances" EntitySet="Balances" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Details_SizeUnits" Association="Store.FK_Details_SizeUnits">
+            <End Role="SizeUnits" EntitySet="SizeUnits" />
+            <End Role="Details" EntitySet="Details" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MenuItems_Forms" Association="Store.FK_MenuItems_Forms">
+            <End Role="Forms" EntitySet="Forms" />
+            <End Role="MenuItems" EntitySet="MenuItems" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MenuItems_MenuItems" Association="Store.FK_MenuItems_MenuItems">
+            <End Role="MenuItems" EntitySet="MenuItems" />
+            <End Role="MenuItems1" EntitySet="MenuItems" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tbldetalebi_tbloperaciebi" Association="Store.FK_tbldetalebi_tbloperaciebi">
+            <End Role="Operations" EntitySet="Operations" />
+            <End Role="Details" EntitySet="Details" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tbldetalebi_tblsaqoneli" Association="Store.FK_tbldetalebi_tblsaqoneli">
+            <End Role="Products" EntitySet="Products" />
+            <End Role="Details" EntitySet="Details" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tbloperaciebi_tblmomwodebeli" Association="Store.FK_tbloperaciebi_tblmomwodebeli">
+            <End Role="Distributors" EntitySet="Distributors" />
+            <End Role="Operations" EntitySet="Operations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tbloperaciebi_tblmyidvelebi" Association="Store.FK_tbloperaciebi_tblmyidvelebi">
+            <End Role="Customers" EntitySet="Customers" />
+            <End Role="Operations" EntitySet="Operations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tblsaqoneli_tblzomisert" Association="Store.FK_tblsaqoneli_tblzomisert">
+            <End Role="SizeUnits" EntitySet="SizeUnits" />
+            <End Role="Products" EntitySet="Products" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Balances">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" MaxLength="255" />
+          <Property Name="OutputPrice" Type="float" />
+          <Property Name="InputPrice" Type="float" />
+          <Property Name="SizeUnitID" Type="int" />
+          <Property Name="Date" Type="date" />
+          <Property Name="CurrentAmount" Type="float" />
+          <Property Name="TotalPrice" Type="float" />
+          <Property Name="RealPrice" Type="float" />
+        </EntityType>
+        <EntityType Name="Customers">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" MaxLength="100" />
+          <Property Name="Code" Type="nvarchar" MaxLength="50" />
+          <Property Name="Address" Type="nvarchar" MaxLength="255" />
+          <Property Name="Deleted" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Details">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="OperationID" Type="int" />
+          <Property Name="ProductID" Type="int" />
+          <Property Name="InputAmount" Type="float" />
+          <Property Name="OutputAmount" Type="float" />
+          <Property Name="Price" Type="float" />
+          <Property Name="OutputPrice" Type="float" />
+          <Property Name="InputPrice" Type="float" />
+          <Property Name="SizeUnitID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Distributors">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" MaxLength="255" />
+          <Property Name="Code" Type="nvarchar" MaxLength="255" />
+          <Property Name="Address" Type="nvarchar" MaxLength="255" />
+          <Property Name="Deleted" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Files">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FileName" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="FileContent" Type="varbinary(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Forms">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ClassName" Type="nvarchar" Nullable="false" MaxLength="200" />
+          <Property Name="Title" Type="nvarchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="MenuItems">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ParentID" Type="int" />
+          <Property Name="DisplayName" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="FormID" Type="int" />
+          <Property Name="IconUrl" Type="nvarchar" MaxLength="200" />
+          <Property Name="IsLeaf" Type="bit" />
+          <Property Name="IndexNumber" Type="int" />
+        </EntityType>
+        <EntityType Name="Operations">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Date" Type="date" />
+          <Property Name="CustomerID" Type="int" />
+          <Property Name="IO" Type="nvarchar" MaxLength="255" />
+          <Property Name="DistributorID" Type="int" />
+        </EntityType>
+        <EntityType Name="Products">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" MaxLength="255" />
+          <Property Name="OutputPrice" Type="float" />
+          <Property Name="Deleted" Type="bit" Nullable="false" />
+          <Property Name="InputPrice" Type="float" />
+          <Property Name="SizeUnitID" Type="int" />
+          <Property Name="CurrentAmount" Type="int" />
+          <Property Name="TotalPrice" Type="float" />
+          <Property Name="BalanceID" Type="int" Nullable="false" />
+          <Property Name="RealPrice" Type="float" />
+        </EntityType>
+        <EntityType Name="SizeUnits">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Users">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="FirstName" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="LastName" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Position" Type="nvarchar" Nullable="false" MaxLength="200" />
+          <Property Name="PWD" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="IsActive" Type="bit" Nullable="false" />
+          <Property Name="PersonalID" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_Balances_SizeUnits">
+          <End Role="SizeUnits" Type="Store.SizeUnits" Multiplicity="0..1" />
+          <End Role="Balances" Type="Store.Balances" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SizeUnits">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Balances">
+              <PropertyRef Name="SizeUnitID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Details_SizeUnits">
+          <End Role="SizeUnits" Type="Store.SizeUnits" Multiplicity="1" />
+          <End Role="Details" Type="Store.Details" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SizeUnits">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Details">
+              <PropertyRef Name="SizeUnitID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MenuItems_Forms">
+          <End Role="Forms" Type="Store.Forms" Multiplicity="0..1" />
+          <End Role="MenuItems" Type="Store.MenuItems" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Forms">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="MenuItems">
+              <PropertyRef Name="FormID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MenuItems_MenuItems">
+          <End Role="MenuItems" Type="Store.MenuItems" Multiplicity="0..1" />
+          <End Role="MenuItems1" Type="Store.MenuItems" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MenuItems">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="MenuItems1">
+              <PropertyRef Name="ParentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tbldetalebi_tbloperaciebi">
+          <End Role="Operations" Type="Store.Operations" Multiplicity="0..1" />
+          <End Role="Details" Type="Store.Details" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Operations">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Details">
+              <PropertyRef Name="OperationID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tbldetalebi_tblsaqoneli">
+          <End Role="Products" Type="Store.Products" Multiplicity="0..1" />
+          <End Role="Details" Type="Store.Details" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Products">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Details">
+              <PropertyRef Name="ProductID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tbloperaciebi_tblmomwodebeli">
+          <End Role="Distributors" Type="Store.Distributors" Multiplicity="0..1" />
+          <End Role="Operations" Type="Store.Operations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Distributors">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Operations">
+              <PropertyRef Name="DistributorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tbloperaciebi_tblmyidvelebi">
+          <End Role="Customers" Type="Store.Customers" Multiplicity="0..1" />
+          <End Role="Operations" Type="Store.Operations" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customers">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Operations">
+              <PropertyRef Name="CustomerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tblsaqoneli_tblzomisert">
+          <End Role="SizeUnits" Type="Store.SizeUnits" Multiplicity="0..1" />
+          <End Role="Products" Type="Store.Products" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SizeUnits">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Products">
+              <PropertyRef Name="SizeUnitID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DataModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="SISEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Balances" EntityType="DataModel.Balance" />
+          <EntitySet Name="Customers" EntityType="DataModel.Customer" />
+          <EntitySet Name="Details" EntityType="DataModel.Detail" />
+          <EntitySet Name="Distributors" EntityType="DataModel.Distributor" />
+          <EntitySet Name="Files" EntityType="DataModel.File" />
+          <EntitySet Name="Forms" EntityType="DataModel.Form" />
+          <EntitySet Name="MenuItems" EntityType="DataModel.MenuItem" />
+          <EntitySet Name="Operations" EntityType="DataModel.Operation" />
+          <EntitySet Name="Products" EntityType="DataModel.Product" />
+          <EntitySet Name="SizeUnits" EntityType="DataModel.SizeUnit" />
+          <EntitySet Name="Users" EntityType="DataModel.User" />
+          <AssociationSet Name="FK_Balances_SizeUnits" Association="DataModel.FK_Balances_SizeUnits">
+            <End Role="SizeUnit" EntitySet="SizeUnits" />
+            <End Role="Balance" EntitySet="Balances" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tbloperaciebi_tblmyidvelebi" Association="DataModel.FK_tbloperaciebi_tblmyidvelebi">
+            <End Role="Customer" EntitySet="Customers" />
+            <End Role="Operation" EntitySet="Operations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Details_SizeUnits" Association="DataModel.FK_Details_SizeUnits">
+            <End Role="SizeUnit" EntitySet="SizeUnits" />
+            <End Role="Detail" EntitySet="Details" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tbldetalebi_tbloperaciebi" Association="DataModel.FK_tbldetalebi_tbloperaciebi">
+            <End Role="Operation" EntitySet="Operations" />
+            <End Role="Detail" EntitySet="Details" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tbldetalebi_tblsaqoneli" Association="DataModel.FK_tbldetalebi_tblsaqoneli">
+            <End Role="Product" EntitySet="Products" />
+            <End Role="Detail" EntitySet="Details" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tbloperaciebi_tblmomwodebeli" Association="DataModel.FK_tbloperaciebi_tblmomwodebeli">
+            <End Role="Distributor" EntitySet="Distributors" />
+            <End Role="Operation" EntitySet="Operations" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MenuItems_Forms" Association="DataModel.FK_MenuItems_Forms">
+            <End Role="Form" EntitySet="Forms" />
+            <End Role="MenuItem" EntitySet="MenuItems" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MenuItems_MenuItems" Association="DataModel.FK_MenuItems_MenuItems">
+            <End Role="MenuItem" EntitySet="MenuItems" />
+            <End Role="MenuItem1" EntitySet="MenuItems" />
+          </AssociationSet>
+          <AssociationSet Name="FK_tblsaqoneli_tblzomisert" Association="DataModel.FK_tblsaqoneli_tblzomisert">
+            <End Role="SizeUnit" EntitySet="SizeUnits" />
+            <End Role="Product" EntitySet="Products" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Balance">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Type="Double" Name="OutputPrice" />
+          <Property Type="Double" Name="InputPrice" />
+          <Property Type="Int32" Name="SizeUnitID" />
+          <Property Type="DateTime" Name="Date" Precision="0" />
+          <Property Type="Double" Name="CurrentAmount" />
+          <Property Type="Double" Name="TotalPrice" />
+          <Property Type="Double" Name="RealPrice" />
+          <NavigationProperty Name="SizeUnit" Relationship="DataModel.FK_Balances_SizeUnits" FromRole="Balance" ToRole="SizeUnit" />
+        </EntityType>
+        <EntityType Name="Customer">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Code" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Address" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="Deleted" Nullable="false" />
+          <NavigationProperty Name="Operations" Relationship="DataModel.FK_tbloperaciebi_tblmyidvelebi" FromRole="Customer" ToRole="Operation" />
+        </EntityType>
+        <EntityType Name="Detail">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="OperationID" />
+          <Property Type="Int32" Name="ProductID" />
+          <Property Type="Double" Name="InputAmount" />
+          <Property Type="Double" Name="OutputAmount" />
+          <Property Type="Double" Name="Price" />
+          <Property Type="Double" Name="OutputPrice" />
+          <Property Type="Double" Name="InputPrice" />
+          <Property Type="Int32" Name="SizeUnitID" Nullable="false" />
+          <NavigationProperty Name="SizeUnit" Relationship="DataModel.FK_Details_SizeUnits" FromRole="Detail" ToRole="SizeUnit" />
+          <NavigationProperty Name="Operation" Relationship="DataModel.FK_tbldetalebi_tbloperaciebi" FromRole="Detail" ToRole="Operation" />
+          <NavigationProperty Name="Product" Relationship="DataModel.FK_tbldetalebi_tblsaqoneli" FromRole="Detail" ToRole="Product" />
+        </EntityType>
+        <EntityType Name="Distributor">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Code" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Address" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="Deleted" Nullable="false" />
+          <NavigationProperty Name="Operations" Relationship="DataModel.FK_tbloperaciebi_tblmomwodebeli" FromRole="Distributor" ToRole="Operation" />
+        </EntityType>
+        <EntityType Name="File">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="FileName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="Binary" Name="FileContent" Nullable="false" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Form">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="ClassName" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Title" MaxLength="100" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="MenuItems" Relationship="DataModel.FK_MenuItems_Forms" FromRole="Form" ToRole="MenuItem" />
+        </EntityType>
+        <EntityType Name="MenuItem">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="ParentID" />
+          <Property Type="String" Name="DisplayName" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="FormID" />
+          <Property Type="String" Name="IconUrl" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsLeaf" />
+          <Property Type="Int32" Name="IndexNumber" />
+          <NavigationProperty Name="Form" Relationship="DataModel.FK_MenuItems_Forms" FromRole="MenuItem" ToRole="Form" />
+          <NavigationProperty Name="MenuItems1" Relationship="DataModel.FK_MenuItems_MenuItems" FromRole="MenuItem" ToRole="MenuItem1" />
+          <NavigationProperty Name="MenuItem1" Relationship="DataModel.FK_MenuItems_MenuItems" FromRole="MenuItem1" ToRole="MenuItem" />
+        </EntityType>
+        <EntityType Name="Operation">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="DateTime" Name="Date" Precision="0" />
+          <Property Type="Int32" Name="CustomerID" />
+          <Property Type="String" Name="IO" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Type="Int32" Name="DistributorID" />
+          <NavigationProperty Name="Customer" Relationship="DataModel.FK_tbloperaciebi_tblmyidvelebi" FromRole="Operation" ToRole="Customer" />
+          <NavigationProperty Name="Details" Relationship="DataModel.FK_tbldetalebi_tbloperaciebi" FromRole="Operation" ToRole="Detail" />
+          <NavigationProperty Name="Distributor" Relationship="DataModel.FK_tbloperaciebi_tblmomwodebeli" FromRole="Operation" ToRole="Distributor" />
+        </EntityType>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Type="Double" Name="OutputPrice" />
+          <Property Type="Boolean" Name="Deleted" Nullable="false" />
+          <Property Type="Double" Name="InputPrice" />
+          <Property Type="Int32" Name="SizeUnitID" />
+          <Property Type="Int32" Name="CurrentAmount" />
+          <Property Type="Double" Name="TotalPrice" />
+          <Property Type="Int32" Name="BalanceID" Nullable="false" />
+          <Property Type="Double" Name="RealPrice" />
+          <NavigationProperty Name="Details" Relationship="DataModel.FK_tbldetalebi_tblsaqoneli" FromRole="Product" ToRole="Detail" />
+          <NavigationProperty Name="SizeUnit" Relationship="DataModel.FK_tblsaqoneli_tblzomisert" FromRole="Product" ToRole="SizeUnit" />
+        </EntityType>
+        <EntityType Name="SizeUnit">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="Name" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Balances" Relationship="DataModel.FK_Balances_SizeUnits" FromRole="SizeUnit" ToRole="Balance" />
+          <NavigationProperty Name="Details" Relationship="DataModel.FK_Details_SizeUnits" FromRole="SizeUnit" ToRole="Detail" />
+          <NavigationProperty Name="Products" Relationship="DataModel.FK_tblsaqoneli_tblzomisert" FromRole="SizeUnit" ToRole="Product" />
+        </EntityType>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="FirstName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="LastName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Position" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="PWD" Nullable="false" MaxLength="256" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" Nullable="false" />
+          <Property Type="String" Name="PersonalID" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <Association Name="FK_Balances_SizeUnits">
+          <End Type="DataModel.SizeUnit" Role="SizeUnit" Multiplicity="0..1" />
+          <End Type="DataModel.Balance" Role="Balance" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SizeUnit">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Balance">
+              <PropertyRef Name="SizeUnitID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tbloperaciebi_tblmyidvelebi">
+          <End Type="DataModel.Customer" Role="Customer" Multiplicity="0..1" />
+          <End Type="DataModel.Operation" Role="Operation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Customer">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Operation">
+              <PropertyRef Name="CustomerID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Details_SizeUnits">
+          <End Type="DataModel.SizeUnit" Role="SizeUnit" Multiplicity="1" />
+          <End Type="DataModel.Detail" Role="Detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SizeUnit">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Detail">
+              <PropertyRef Name="SizeUnitID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tbldetalebi_tbloperaciebi">
+          <End Type="DataModel.Operation" Role="Operation" Multiplicity="0..1" />
+          <End Type="DataModel.Detail" Role="Detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Operation">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Detail">
+              <PropertyRef Name="OperationID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tbldetalebi_tblsaqoneli">
+          <End Type="DataModel.Product" Role="Product" Multiplicity="0..1" />
+          <End Type="DataModel.Detail" Role="Detail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Product">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Detail">
+              <PropertyRef Name="ProductID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tbloperaciebi_tblmomwodebeli">
+          <End Type="DataModel.Distributor" Role="Distributor" Multiplicity="0..1" />
+          <End Type="DataModel.Operation" Role="Operation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Distributor">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Operation">
+              <PropertyRef Name="DistributorID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MenuItems_Forms">
+          <End Type="DataModel.Form" Role="Form" Multiplicity="0..1" />
+          <End Type="DataModel.MenuItem" Role="MenuItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Form">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="MenuItem">
+              <PropertyRef Name="FormID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MenuItems_MenuItems">
+          <End Type="DataModel.MenuItem" Role="MenuItem" Multiplicity="0..1" />
+          <End Type="DataModel.MenuItem" Role="MenuItem1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MenuItem">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="MenuItem1">
+              <PropertyRef Name="ParentID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_tblsaqoneli_tblzomisert">
+          <End Type="DataModel.SizeUnit" Role="SizeUnit" Multiplicity="0..1" />
+          <End Type="DataModel.Product" Role="Product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SizeUnit">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="Product">
+              <PropertyRef Name="SizeUnitID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StoreContainer" CdmEntityContainer="SISEntities" >
+          <EntitySetMapping Name="Balances">
+            <EntityTypeMapping TypeName="DataModel.Balance">
+              <MappingFragment StoreEntitySet="Balances">
+                <ScalarProperty Name="RealPrice" ColumnName="RealPrice" />
+                <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+                <ScalarProperty Name="CurrentAmount" ColumnName="CurrentAmount" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="SizeUnitID" ColumnName="SizeUnitID" />
+                <ScalarProperty Name="InputPrice" ColumnName="InputPrice" />
+                <ScalarProperty Name="OutputPrice" ColumnName="OutputPrice" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Customers">
+            <EntityTypeMapping TypeName="DataModel.Customer">
+              <MappingFragment StoreEntitySet="Customers">
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Code" ColumnName="Code" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Details">
+            <EntityTypeMapping TypeName="DataModel.Detail">
+              <MappingFragment StoreEntitySet="Details">
+                <ScalarProperty Name="SizeUnitID" ColumnName="SizeUnitID" />
+                <ScalarProperty Name="InputPrice" ColumnName="InputPrice" />
+                <ScalarProperty Name="OutputPrice" ColumnName="OutputPrice" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="OutputAmount" ColumnName="OutputAmount" />
+                <ScalarProperty Name="InputAmount" ColumnName="InputAmount" />
+                <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+                <ScalarProperty Name="OperationID" ColumnName="OperationID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Distributors">
+            <EntityTypeMapping TypeName="DataModel.Distributor">
+              <MappingFragment StoreEntitySet="Distributors">
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+                <ScalarProperty Name="Address" ColumnName="Address" />
+                <ScalarProperty Name="Code" ColumnName="Code" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Files">
+            <EntityTypeMapping TypeName="DataModel.File">
+              <MappingFragment StoreEntitySet="Files">
+                <ScalarProperty Name="FileContent" ColumnName="FileContent" />
+                <ScalarProperty Name="FileName" ColumnName="FileName" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Forms">
+            <EntityTypeMapping TypeName="DataModel.Form">
+              <MappingFragment StoreEntitySet="Forms">
+                <ScalarProperty Name="Title" ColumnName="Title" />
+                <ScalarProperty Name="ClassName" ColumnName="ClassName" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MenuItems">
+            <EntityTypeMapping TypeName="DataModel.MenuItem">
+              <MappingFragment StoreEntitySet="MenuItems">
+                <ScalarProperty Name="IndexNumber" ColumnName="IndexNumber" />
+                <ScalarProperty Name="IsLeaf" ColumnName="IsLeaf" />
+                <ScalarProperty Name="IconUrl" ColumnName="IconUrl" />
+                <ScalarProperty Name="FormID" ColumnName="FormID" />
+                <ScalarProperty Name="DisplayName" ColumnName="DisplayName" />
+                <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Operations">
+            <EntityTypeMapping TypeName="DataModel.Operation">
+              <MappingFragment StoreEntitySet="Operations">
+                <ScalarProperty Name="DistributorID" ColumnName="DistributorID" />
+                <ScalarProperty Name="IO" ColumnName="IO" />
+                <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+                <ScalarProperty Name="Date" ColumnName="Date" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Products">
+            <EntityTypeMapping TypeName="DataModel.Product">
+              <MappingFragment StoreEntitySet="Products">
+                <ScalarProperty Name="RealPrice" ColumnName="RealPrice" />
+                <ScalarProperty Name="BalanceID" ColumnName="BalanceID" />
+                <ScalarProperty Name="TotalPrice" ColumnName="TotalPrice" />
+                <ScalarProperty Name="CurrentAmount" ColumnName="CurrentAmount" />
+                <ScalarProperty Name="SizeUnitID" ColumnName="SizeUnitID" />
+                <ScalarProperty Name="InputPrice" ColumnName="InputPrice" />
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+                <ScalarProperty Name="OutputPrice" ColumnName="OutputPrice" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SizeUnits">
+            <EntityTypeMapping TypeName="DataModel.SizeUnit">
+              <MappingFragment StoreEntitySet="SizeUnits">
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users">
+            <EntityTypeMapping TypeName="DataModel.User">
+              <MappingFragment StoreEntitySet="Users">
+                <ScalarProperty Name="PersonalID" ColumnName="PersonalID" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="PWD" ColumnName="PWD" />
+                <ScalarProperty Name="Position" ColumnName="Position" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

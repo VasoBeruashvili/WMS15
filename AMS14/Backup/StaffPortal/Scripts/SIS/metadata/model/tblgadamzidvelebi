@@ -1,0 +1,94 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "tblgadamzidvelebi"
+    },
+    "designerId": "b44fa9b0-c638-44a0-9d37-27a1a465ec2a",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID",
+                "type": "int"
+            },
+            "designerId": "b7cbc3db-7c62-48cc-8a97-81ef01ab6f4d"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "gadamzidveli",
+                "type": "string"
+            },
+            "designerId": "4359c7bb-50e9-483d-9ecc-1b62635ea7b4"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "marTvis_mowmobis_",
+                "type": "string"
+            },
+            "designerId": "b8762dac-b0fb-47e9-bc10-52342b990028"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "avtomanqanis_",
+                "type": "string"
+            },
+            "designerId": "597210f9-1907-4e4d-a37a-f0f88c7209a5"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "gauqmebulia",
+                "type": "boolean"
+            },
+            "designerId": "73e20ee3-799b-455f-bb8a-cbd1f1a203d8"
+        },
+        {
+            "type": "Ext.data.association.HasMany",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "associationKey": "transpsaxe",
+                "designer|displayName": "hasManytbltranspsaxe",
+                "model": "tbltranspsaxe",
+                "name": "transpsaxe"
+            },
+            "designerId": "72d69661-acbb-42ce-b5bc-439a0f8fe757"
+        }
+    ]
+}

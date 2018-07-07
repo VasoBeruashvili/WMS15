@@ -1,0 +1,120 @@
+{
+    "type": "Ext.form.field.Trigger",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "daterangefield",
+        "designer|userClassName": "DateRangeSelector",
+        "editable": false,
+        "emptyText": "დაბადების თარიღი",
+        "fieldLabel": null,
+        "itemId": null,
+        "pickerClassName": "SIS.view.DateRangeSelectorForm"
+    },
+    "designerId": "1884d9a2-23f5-468d-bc7a-1042a98aba25",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "onTriggerClick",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "beforeValueText",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "pickerClassName",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onTriggerClick",
+                "implHandler": [
+                    "\r",
+                    "\r",
+                    "console.log('select date range');\r",
+                    "\r",
+                    "var me = this;\r",
+                    "var beforeStr = this.beforeValueText || this.emptyText || '';\r",
+                    "\r",
+                    "var win = Ext.create(this.pickerClassName, {\r",
+                    "    modal:true,\r",
+                    "    save: function(rangeModel){\r",
+                    "\r",
+                    "        if(rangeModel.get('FromDate')!=null && rangeModel.get('ToDate')!=null)\r",
+                    "        {\r",
+                    "            if(this.dateRange.get('FromDate')>=this.dateRange.get('ToDate'))\r",
+                    "            {\r",
+                    "                alert('არასწორი შუალედი');\r",
+                    "\r",
+                    "            }\r",
+                    "\r",
+                    "\r",
+                    "            else\r",
+                    "            {\r",
+                    "                var fromstr = DateFormat(rangeModel.get('FromDate'), null);\r",
+                    "                var tostr = DateFormat(rangeModel.get('ToDate'), null);\r",
+                    "                rangeModel.set('Range',  fromstr + ' ' + '-' + ' '+ tostr);\r",
+                    "                me.setValue(beforeStr+': '+rangeModel.get('Range'));\r",
+                    "                me.fromDate = rangeModel.get('FromDate');\r",
+                    "                me.toDate = rangeModel.get('ToDate');\r",
+                    "            }\r",
+                    "\r",
+                    "        }\r",
+                    "\r",
+                    "\r",
+                    "\r",
+                    "        else\r",
+                    "        {\r",
+                    "            alert('აირჩიეთ შუალედი');\r",
+                    "\r",
+                    "        }\r",
+                    "\r",
+                    "\r",
+                    "    }\r",
+                    "});\r",
+                    "\r",
+                    "win.setData();\r",
+                    "win.show();"
+                ]
+            },
+            "designerId": "67d92e85-b94d-475c-b874-097417a8398d"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getValue",
+                "implHandler": [
+                    "\r",
+                    "var obj = !(this.fromDate && this.toDate) ? null : {\r",
+                    "    FromDate: this.fromDate,\r",
+                    "    ToDate: this.toDate\r",
+                    "};\r",
+                    "\r",
+                    "return obj;\r",
+                    "\r",
+                    ""
+                ]
+            },
+            "designerId": "0556afac-e021-4ee8-914d-4321536e5f3d"
+        }
+    ]
+}

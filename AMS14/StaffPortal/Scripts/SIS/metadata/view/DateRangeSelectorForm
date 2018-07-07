@@ -1,0 +1,355 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "daterangeform",
+        "designer|userClassName": "DateRangeSelectorForm",
+        "height": 321,
+        "itemId": "btnAccept",
+        "keyMapConfig": [
+            "{\r",
+            "    bindings: [\r",
+            "        {\r",
+            "            ctrl: false,\r",
+            "            key: Ext.EventObject.ENTER,\r",
+            "            btnItemId: 'btnAccept'\r",
+            "        }\r",
+            "    ]\r",
+            "}"
+        ],
+        "layout": null,
+        "title": "თარიღის შუალედი",
+        "width": 447
+    },
+    "configAlternates": {
+        "dateRange": "object",
+        "keyMapConfig": "object"
+    },
+    "designerId": "6001be63-0cb8-4956-9cb8-b484657d2d44",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "dateRange",
+            "type": "string"
+        },
+        {
+            "group": "(Custom Properties)",
+            "name": "keyMapConfig",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "height": 242,
+                "layout": "hbox",
+                "width": 437
+            },
+            "designerId": "012a6942-48d1-4914-8f89-e015433badee",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 248,
+                        "layout|flex": null,
+                        "width": 218
+                    },
+                    "designerId": "ca3bc5a5-684b-4412-9928-3c4b12d313c0",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "margin": "5 0 0 60",
+                                "text": "საწყისი თარიღი"
+                            },
+                            "designerId": "7a42f83c-98c4-4efb-acb3-d3d468acb194"
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|createAlias": "datepicker",
+                                "itemId": "pStartDate"
+                            },
+                            "designerId": "d6f869a8-7694-41ba-a5d8-1a5fc66a0080"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 248,
+                        "layout|flex": null,
+                        "width": 218
+                    },
+                    "designerId": "159507b1-15a3-4296-aa3c-b1bc63a396d8",
+                    "cn": [
+                        {
+                            "type": "Ext.form.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "margin": "5 0 0 60",
+                                "text": "ბოლო თარიღი"
+                            },
+                            "designerId": "6169eb33-bd28-4143-9e57-28891449a18a"
+                        },
+                        {
+                            "type": "Ext.container.Container",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|createAlias": "datepicker",
+                                "itemId": "pEndDate"
+                            },
+                            "designerId": "8e19b3ae-a146-4548-81fd-5db9da976e63"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "height": 27,
+                "layout": "hbox",
+                "margin": "5 0 0 0 ",
+                "width": 437
+            },
+            "designerId": "d88fd3ec-9590-472d-8a26-93c1de2fcba7",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "height": 47,
+                        "html": [
+                            "ბოლო: <a href='#'> კვირა </a> &nbsp; <a href='#'> თვე </a> &nbsp; <a href='#'> წელი </a>"
+                        ],
+                        "layout": "hbox",
+                        "layout|flex": null,
+                        "margin": "0 0 0 5",
+                        "width": 331
+                    },
+                    "designerId": "72d69d2d-77b4-4340-8e9c-857e3b49c59f"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 64,
+                        "iconCls": "icon-accept",
+                        "itemId": "btnAccept",
+                        "layout|flex": null,
+                        "text": "დასტური",
+                        "width": 95
+                    },
+                    "designerId": "ec6a3074-047a-4f2b-a514-9aeda59b6bae",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "\r",
+                                    "var win = button.up('daterangeform');\r",
+                                    "\r",
+                                    "\r",
+                                    "var result = win.validate();\r",
+                                    "\r",
+                                    "if(!result.success)\r",
+                                    "{\r",
+                                    "    MessageBox('', result.msg);\r",
+                                    "    return;\r",
+                                    "}\r",
+                                    "\r",
+                                    "\r",
+                                    "\r",
+                                    "var dialogResult = win.save(win.getData());\r",
+                                    "\r",
+                                    "if(dialogResult == EnumDialogResult.Success || IsNullOrEmpty(dialogResult))\r",
+                                    "{\r",
+                                    "    win.close();\r",
+                                    "}"
+                                ]
+                            },
+                            "designerId": "1002e2ab-35ef-41ca-8716-05b6fa76e75f"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getData",
+                "implHandler": [
+                    "var win = this;\r",
+                    "\r",
+                    "if(this.dateRange == null){\r",
+                    "    this.dateRange = Ext.create('SIS.model.DateRangeSelectModel');\r",
+                    "}\r",
+                    "\r",
+                    "var pStartDate = FindControl(win, 'pStartDate');\r",
+                    "\r",
+                    "var pEndDate = FindControl(win, 'pEndDate');\r",
+                    "\r",
+                    "//this.dateRange.set('FromDate', GetComponent('StartDate3',this).getValue());\r",
+                    "//this.dateRange.set('ToDate', GetComponent('EndDate',this).getValue());\r",
+                    "\r",
+                    "//this.dateRange.set('Range',  this.dateRange.get('FromDate') + ' ' + '-' + ' '+ this.dateRange.get('ToDate'));\r",
+                    "\r",
+                    "\r",
+                    "win.dateRange.data.FromDate = pStartDate.getValue();\r",
+                    "\r",
+                    "win.dateRange.data.ToDate = pEndDate.getValue();\r",
+                    "\r",
+                    "\r",
+                    "return win.dateRange;\r",
+                    ""
+                ]
+            },
+            "designerId": "257a2897-ac13-41e2-9b39-bbd9626da566"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "setData",
+                "implHandler": [
+                    "var win = this;\r",
+                    "\r",
+                    "if(this.dateRange == null){\r",
+                    "    this.dateRange = Ext.create('SIS.model.DateRangeSelectModel');\r",
+                    "}\r",
+                    "\r",
+                    "\r",
+                    "var pStartDate = FindControl(win, 'pStartDate');\r",
+                    "\r",
+                    "var pEndDate = FindControl(win, 'pEndDate');\r",
+                    "\r",
+                    "pStartDate.selectToday();\r",
+                    "\r",
+                    "pEndDate.selectToday();"
+                ]
+            },
+            "designerId": "1f6163f3-dcaf-4ed3-bc7a-724f723c4ccb"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "validate",
+                "implHandler": [
+                    "\r",
+                    "var win = this;\r",
+                    "\r",
+                    "var result = {success: true};\r",
+                    "\r",
+                    "var pStartDate = FindControl(win, 'pStartDate');\r",
+                    "\r",
+                    "var pEndDate = FindControl(win, 'pEndDate');\r",
+                    "\r",
+                    "\r",
+                    "if(IsNullOrEmpty(pStartDate.getValue))\r",
+                    "{\r",
+                    "    result.success = false;\r",
+                    "    result.msg = 'აირჩიეთ საწყისი თარიღი!';\r",
+                    "}\r",
+                    "\r",
+                    "if(IsNullOrEmpty(pEndDate.getValue()))\r",
+                    "{\r",
+                    "    result.success = false;\r",
+                    "    result.msg = 'აირჩიეთ ბოლო თარიღი!';\r",
+                    "}\r",
+                    "\r",
+                    "\r",
+                    "if(pStartDate.getValue() > pEndDate.getValue())\r",
+                    "{\r",
+                    "    result.success = false;\r",
+                    "    result.msg = 'არასწორი შუალედი!';\r",
+                    "}\r",
+                    "\r",
+                    "\r",
+                    "\r",
+                    "\r",
+                    "return result;"
+                ]
+            },
+            "designerId": "02d9952b-4455-4123-b219-d81bfbb75ee4"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "tblzomisertModel"
+    },
+    "designerId": "51bc0a01-3117-456c-a007-491cbff8db27",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID",
+                "type": "int"
+            },
+            "designerId": "b3e5ba30-f7ec-40fe-8986-23597b7c5204"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "zomis_erteuli",
+                "type": "string"
+            },
+            "designerId": "0878b80e-00f7-4d19-ada2-80a266177f8e"
+        }
+    ]
+}

@@ -1,0 +1,92 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+	    #round{
+		    background-color:#ffffcc;
+		    border:3px solid #000;
+		    border-radius:20px;
+	    }
+        body { 
+            margin:0;
+            padding:0;
+            background-color:#EDEDED;
+        }
+        #header_container { 
+            background:#800101;
+            border:1px solid #666;
+            left:0;
+            height:100px;
+            position:fixed;
+            width:100%;
+            top:0;
+        }
+        #header{
+             margin:0 0;
+             width:100%;
+        }
+        #container {
+             margin:0 auto;
+             overflow:auto;
+             padding:80px 0;
+             width:100%;
+             flex:3;
+        }
+        #footer_container 
+        {
+             background:#757676;
+             border:1px solid #666;
+             bottom:0;
+             flex:1;
+             left:0;
+             position:fixed;
+             width:100%;
+        }
+        #footer
+        {
+             line-height:60px;
+             margin:0 auto;
+             width:100%;
+             text-align:center;
+        }
+        #login {
+	        position:absolute;
+            background-color:#cfcfcf;
+	        top:50%;
+	        left:50%;
+	        width:250px;
+	        height:200px;
+	        margin-left:-125px;
+	        margin-top:-100px;
+            text-align:center;
+		    border:3px solid #000;
+		    border-radius:20px;
+        }
+    </style>
+    <title>სისტემაში შესვლა</title>
+</head>
+<body>
+    <div id="header_container">
+        <div id="header">
+            <img style="float:left; margin-left:10px; margin-right:0;" src="~/Content/Resources/150px-GTU_Logo.svg[1].png" />
+            <p style="font-family:Sylfaen;font-size:xx-large; color:white; margin:0; margin-bottom:0;">ტექიკური უნივერსიტეტი</p>
+            <p style="font-family:Sylfaen;font-size:large; color:white; margin-top:0px;margin-bottom:0px">სასწავლო პროცესის მართვის სისტემა</p>
+            <p style="font-family:Sylfaen;font-size:large; color:white; margin-top:0px;margin-bottom:0px">თანამშრომელთა გვერდზე შესვლა</p>
+        </div>
+    </div>
+        <table id="login">
+            <tr><td><a href="/Login/Index">შესვლა სახელით და პაროლით</a></td></tr>
+            <tr><td><a href="/Login/Id">შესვლა ID-ბარატით</a></td></tr>
+        </table>
+    <div id="footer_container">
+        <div id="footer">
+            <h5>საქართველოს ტექნიკური უნივერსიტეტი (c) GTU 2013</h5>
+        </div>
+    </div>
+</body>
+</html>

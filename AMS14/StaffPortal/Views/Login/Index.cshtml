@@ -1,0 +1,283 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            vertical-align: top;
+            background-color: #3c3c3c;
+        }
+
+        html {overflow-x:hidden;}
+        body {margin:0;padding:0;}
+
+        video, object {
+            left:0;
+            position:absolute;
+            top:0;
+        }
+
+        #footer_container {
+            
+            border: 1px solid #666;
+            bottom: 0;
+            position: fixed;
+            height: 45px;
+            width: 100%;
+        }
+
+        #reg_form {
+            position: relative;
+            margin: 0 auto;
+            /*margin-top: 300px;*/
+            padding: 10px;
+            width: 270px;
+            height: 120px;
+            display: table;
+            background-color: #a5a5a5;  /*#ddd;*/
+            border-radius: 8px;
+            /*border: 1px solid #000;*/
+
+            position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            
+        }
+
+            #reg_form:before, #reg_form:after {
+                content:"";
+                position:absolute; 
+                z-index:-1;
+                -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+                -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+                box-shadow:0 0 20px rgba(0,0,0,0.8);
+                top:0;
+                bottom:0;
+                left:10px;
+                right:10px;
+                -moz-border-radius:100px / 10px;
+                border-radius:100px / 10px;
+            }
+
+            #reg_form:after {
+                right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+            }
+        /*#header{
+        margin:0 0;
+        width:100%;
+    }*/
+        /*#footer
+    {
+        margin:0 auto;
+        width:100%;
+    }*/
+        #regtable {
+            width: 269px;
+            height: 115px;
+            margin-top: 10px;
+            text-align: right;
+        }
+
+            /*#regtable td {
+                border:solid 1px;
+            }*/
+
+
+        #login {
+            background-color: #a5a5a5; /*#cfcfcf;*/
+            top: 50%;
+            left: 50%;
+            width: 250px;
+            height: 200px;
+            margin-left: -125px;
+            margin-top: -100px;
+            text-align: center;
+            border: 3px solid #000;
+            border-radius: 20px;
+        }
+
+        /*nav
+        {
+            width: 100%;
+            display: table;
+            background-color: #757676;
+            padding: 7px 0;
+            border-top: 4px solid #FFF;
+            vertical-align: bottom;
+        }*/
+
+        /*nav ul li
+            {
+                display: inline-block;
+                color: #fff;
+                height: inherit;
+                border-right: 1px solid #fff;
+                padding-right: 10px;
+                margin-left: 10px;
+            }
+
+                nav ul li:last-child
+                {
+                    border: 0;
+                }
+
+                nav ul li a
+                {
+                    display: block;
+                    height: inherit;
+                }*/
+
+
+
+
+
+        #auth ul li {
+            display: inline-block;
+            color: #800101;
+            /*height: inherit;*/
+            /*border-right: 1px solid #fff;*/
+            padding-right: 10px;
+            margin-left: 10px;
+        }
+
+        #auth span {
+            padding: 5px;
+        }
+
+        #loginbtn {
+            font-size: 14px;
+            /*width: 145px;*/
+            height: 30px;
+            /*margin: 0 auto;*/
+            /*margin-right: 15px;*/
+            background-color: #71c246;
+            border: none;
+            /*opacity: 0.6;*/
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            color: #3c3c3c;
+            /*width: 90%;*/
+            width: 149px;
+            /*box-shadow: 0px 20px 20px #888888;*/
+        }
+
+        #loginbtn:hover {
+            font-size: 14px;
+            /*width: 145px;*/
+            height: 30px;
+            /*margin: 0 auto;*/
+            /*margin-right: 15px;*/
+            background-color: #5ec840;
+            border: none;
+            /*opacity: 0.6;*/
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+            color: #3c3c3c;
+            /*width: 90%;*/
+            width: 149px;
+            cursor: pointer;
+            /*box-shadow: 0px 20px 20px #888888;*/
+        }
+
+
+        
+        .outer {
+            display: table;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+
+        .middle {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .inner {
+            margin-left: auto;
+            margin-right: auto; 
+
+        }
+
+
+    </style>
+
+    @*<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">*@
+    <link rel="stylesheet" href="~/Styles/calendar.css">
+
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    @*<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>*@
+    <script type="text/javascript" src="~/Scripts/scr.js"></script>
+    @*<link rel="stylesheet" href="/resources/demos/style.css">*@
+
+    @*<script>
+        $(function () {
+            $("#tabs").tabs();
+        });
+    </script>*@
+
+    <title>სისტემაში შესვლა</title>
+</head>
+<body>
+    
+
+
+    <!--<video id="video_pattern" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+        <source src="~/Scripts/ii.mp4" type="video/mp4" />
+        <source src="~/Scripts/ii.webm" type="video/webm" />
+    </video>-->
+    <div class="outer">
+<div class="middle">
+<div class="inner">
+    <div id="reg_form">
+        <form action="/Login/Login" method="post">
+            <table id="regtable">
+                <tr>
+                    <td style="text-align: left;">
+                        <label for="name" style="color: #fff;">სახელი:</label></td>
+                    <td>
+                        <input name="UserName" id="name" type="text" style="width: 145px;"/></td>
+                </tr>
+                <tr>
+                    <td style="text-align: left;">
+                        <label for="password" style="color: #fff;">პაროლი:</label>
+                    </td>
+                    <td>
+                        <input name="Password" id="password" type="password"  style="width: 145px;"/>
+                    </td>
+                </tr>
+                <tr>
+                    @*<td colspan="2" align="center" style="width: 50%;">*@
+                    <td>@*<label for="submit" style="color: #fff;">შესვლა:</label>*@</td>
+                    <td @*colspan="2"*@ style="text-align: right; padding-top:5px;">
+                        <input type="submit" name="submit" value="შესვლა" formaction="/Login/Login" id="loginbtn" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <span style="color: red; font-size: small">@ViewBag.ValidateUserMessage &nbsp;</span>
+
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+    </div>
+</div>
+</div>
+    @MiniProfiler.RenderIncludes()
+</body>
+</html>

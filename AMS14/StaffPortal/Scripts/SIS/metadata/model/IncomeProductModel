@@ -1,0 +1,149 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "IncomeProductModel"
+    },
+    "designerId": "7e3b6352-196e-4dde-bbb2-52b22e80e680",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID"
+            },
+            "designerId": "fca9cda9-1cd6-467c-aa5f-89138bf67d04"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Name"
+            },
+            "designerId": "9e57aa9d-c449-4b74-a15e-3d7a26b671e5"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Amount",
+                "type": "int"
+            },
+            "designerId": "9405d183-7ae0-4bac-a2b3-b7d5b778ecf7"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "SizeUnitID"
+            },
+            "designerId": "8816b08e-2178-4ef0-b8f9-6f17aeb4d2c2"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "InputPrice"
+            },
+            "designerId": "354e19bd-0a7c-4844-ab25-d096a9f6a314"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "OutputPrice"
+            },
+            "designerId": "6a2b3729-a725-4d65-83e9-b17b7e4c70f8"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "TotalPrice",
+                "type": "float"
+            },
+            "designerId": "9b4575dc-2071-4cdf-bc91-cba3d6474fed"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "SizeUnitName"
+            },
+            "designerId": "09d05c40-a158-49af-8595-99af77103fb1"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "OperationID"
+            },
+            "designerId": "1755db6b-e93c-4cb7-b8c8-e0b2f9e334d6"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Deleted",
+                "type": "boolean"
+            },
+            "designerId": "fb7b25cc-65d0-4391-b50e-533ed8a05c69"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ProductID"
+            },
+            "designerId": "9d198a3a-38d5-46e3-9458-949d74d888ee"
+        }
+    ]
+}

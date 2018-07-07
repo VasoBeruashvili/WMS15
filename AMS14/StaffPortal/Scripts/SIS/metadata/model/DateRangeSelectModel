@@ -1,0 +1,53 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "DateRangeSelectModel"
+    },
+    "designerId": "698501b6-be86-44fc-af1a-4d774e16abf3",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "FromDate",
+                "type": "date"
+            },
+            "designerId": "b8721783-cc92-4496-a38d-8642d38f64a0"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ToDate",
+                "type": "date"
+            },
+            "designerId": "a334223d-1c5b-449f-9358-af0f5f2c0b0a"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Range",
+                "type": "string"
+            },
+            "designerId": "1bca40fe-cdfe-438a-aab4-daaba39e0b56"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "AllSizeUnitStore",
+        "model": "SizeUnitModel",
+        "storeId": "AllSizeUnitStore"
+    },
+    "designerId": "c9b6bee6-2d54-4fee-a6f6-63a16085e5eb",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "/Home/GetAllSizeUnits"
+            },
+            "designerId": "fbf6f4c2-12a0-48a2-a2c6-3330bc90c2ba",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "root"
+                    },
+                    "designerId": "e13f045b-fe04-4e50-ab4e-81a1269a19df"
+                }
+            ]
+        }
+    ]
+}

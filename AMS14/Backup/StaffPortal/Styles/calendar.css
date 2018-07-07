@@ -1,0 +1,110 @@
+#cal {
+    background-color: #9d3131;
+    float: right;
+    margin-right: 16px;
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.num {
+    background-color: inherit;
+    font-size: 20px !important;
+    font-weight: normal;
+    /*line-height: 1.0;*/
+    color: #FFFFFF;
+}
+
+.calendar {
+    background-color: #8d8d8d;
+    border: medium none;
+    color: #FFFFFF;
+}
+
+    .calendar tr td {
+        background-color: inherit;
+        /*color: #FFFFFF;*/
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+
+/*.calendarcontainer {
+    margin-left: 150px;
+    margin-top: 20px;
+
+    background-color:#ffaa00;
+    float:right;
+    margin-right: 30px;
+    width: 150px;
+}*/
+#ctime {
+    font-size: 14px;
+    padding-bottom: 2px;
+    padding-top: 4px;
+    color: #FFFFFF;
+}
+
+#day {
+    padding-top: 1px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+#cp {
+    color: #FFF;
+    font-size: 12px;
+    padding-top: 15px;
+    padding-left: 30px;
+    float: left;
+    /*display: inline-block;*/
+}
+
+#aut {
+    color: #cccccc;
+    /*display: inline-block;*/
+    float: right;
+    text-align: right;
+}
+
+    #aut div {
+        width: 230px;
+        text-align: center;
+        font-size: 12px;
+        padding-top: 5px;
+    }
+
+
+
+/*@font-face {
+    font-family: AcadMtavr1;
+    src: url('/Styles/font/ACADMTAVR.TTF') format('truetype');
+}*/
+
+
+/*.acad_mtavruli{
+    font-family: AcadMtavr;
+    color: #fff;
+    font-size: 15px;
+}*/
+
+
+@font-face
+{
+    font-family: Avaza Mtavruli;
+    src: url(font/AvazaMtavruli.TTF);
+}
+
+@font-face
+{
+    font-family: AcadMtavr;
+    src: url(font/acadmtavr.ttf);
+}

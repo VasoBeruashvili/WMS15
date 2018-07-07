@@ -1,0 +1,67 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "GroupActionsTreeModel",
+            "MenuItemsModel",
+            "UsersModel",
+            "SizeUnitModel",
+            "ProductModel",
+            "CustomerModel",
+            "tblgadamzidvelebi",
+            "tbltranspsaxe",
+            "tblzomisertModel",
+            "DistributorModel",
+            "DetailModel",
+            "BalanceModel",
+            "IncomeProductModel",
+            "OperationModel",
+            "OutcomeProductModel",
+            "ExcelProductModel"
+        ],
+        "name": "SIS",
+        "stores": [
+            "AllProductStore",
+            "ProductArrayStore",
+            "AllCustomerStore",
+            "AllDistributorStore",
+            "AllDetailStore",
+            "AllBalanceStore",
+            "IncomeProductArrayStore",
+            "ActiveCustomerStore",
+            "ActiveProductStore",
+            "ActiveDistributorStore"
+        ],
+        "views": [
+            "ProgramSearchInfo",
+            "FacConfigRO",
+            "ProgramManagerConfigInfoPanel",
+            "MyForm2",
+            "MyPanel23",
+            "UsersAddEditWindow",
+            "UserGroupsCombo",
+            "GroupActionsMainPanel",
+            "MyViewport",
+            "AddSizeUnit",
+            "Customers",
+            "RS",
+            "AddCustomer",
+            "Distributors",
+            "AddDistributor",
+            "Products",
+            "AddProduct",
+            "InputProducts",
+            "OutputProducts",
+            "Balance",
+            "IncomeProducts",
+            "OutcomeProducts",
+            "DateRangeSelectorForm"
+        ]
+    },
+    "designerId": "application"
+}

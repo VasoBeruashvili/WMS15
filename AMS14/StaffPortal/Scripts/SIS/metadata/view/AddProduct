@@ -1,0 +1,381 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userAlias": "addproduct",
+        "designer|userClassName": "AddProduct",
+        "height": 225,
+        "iconCls": "icon-add",
+        "keyMapConfig": [
+            "{\r",
+            "    bindings: [\r",
+            "        {\r",
+            "            ctrl: false,\r",
+            "            key: Ext.EventObject.ENTER,\r",
+            "            btnItemId: 'btnSave'\r",
+            "        }\r",
+            "    ]\r",
+            "}"
+        ],
+        "layout": "vbox",
+        "modal": true,
+        "title": "საქონლის დამატება",
+        "width": 600
+    },
+    "configAlternates": {
+        "keyMapConfig": "object"
+    },
+    "designerId": "aec8d0fc-e138-4f04-b516-4e025b277dac",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "keyMapConfig",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "allowBlank": false,
+                "fieldLabel": "დასახელება",
+                "itemId": "txtName",
+                "labelWidth": 180,
+                "margin": "10 10 10 10",
+                "selectOnFocus": true
+            },
+            "designerId": "8f362ed1-a297-4c25-bc29-923247256752"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "allowBlank": false,
+                "fieldLabel": "ასაღები ფასი",
+                "hidden": true,
+                "itemId": "txtInputPrice",
+                "labelWidth": 180,
+                "layout|flex": null,
+                "margin": "0 10 10 10"
+            },
+            "designerId": "e3d6d3c9-f9ab-41a8-b656-53b6577360f1"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "allowBlank": false,
+                "fieldLabel": "გასაყიდი ფასი",
+                "hidden": true,
+                "itemId": "txtOutputPrice",
+                "labelWidth": 180,
+                "layout|flex": null,
+                "margin": "0 10 10 10"
+            },
+            "designerId": "0067402d-3483-44ca-92d3-c2901fab9a88"
+        },
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "allowBlank": false,
+                "displayField": "Name",
+                "editable": false,
+                "fieldLabel": "ზომის ერთეული",
+                "itemId": "cmbSizeUnits",
+                "labelWidth": 180,
+                "layout|flex": null,
+                "margin": "0 10 10 10",
+                "minChars": null,
+                "selectOnFocus": null,
+                "store": "AllSizeUnitStore",
+                "storeClassName": "SIS.store.AllSizeUnitStore",
+                "typeAhead": null,
+                "valueField": "ID"
+            },
+            "configAlternates": {
+                "onlyActive": "boolean"
+            },
+            "designerId": "a60eb14f-10a8-4285-a2b7-06120599409d",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "storeClassName",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "მასა",
+                "hidden": true,
+                "itemId": "txtNeto",
+                "labelWidth": 180,
+                "layout|flex": null,
+                "margin": "0 10 10 10"
+            },
+            "designerId": "32b3aec5-64d1-477c-841a-df86bf658e38"
+        },
+        {
+            "type": "Ext.form.field.Checkbox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "boxLabel": "გაუქმება",
+                "fieldLabel": "",
+                "itemId": "chckDeleted",
+                "labelWidth": null,
+                "layout|flex": null,
+                "margin": "0 10 10 195"
+            },
+            "designerId": "13ad2ae0-dc6d-425a-a093-108e12f66611"
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "layout": "hbox",
+                "layout|flex": null,
+                "margin": "30 10 10 10"
+            },
+            "designerId": "e8f307df-0346-4f22-ab09-a79ebf1f59cd",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1
+                    },
+                    "designerId": "e6209ff8-917f-4cb2-91b5-c7a366e01564"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "icon-save24",
+                        "itemId": "btnSave",
+                        "layout|flex": null,
+                        "margin": "0 10 0 0",
+                        "scale": "medium",
+                        "text": "",
+                        "tooltip": [
+                            "შენახვა"
+                        ]
+                    },
+                    "designerId": "19819dc7-53f7-432e-a5bd-fbd4d4d63202",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onBtnSaveClick",
+                                "implHandler": [
+                                    "var form = button.up('addproduct');\r",
+                                    "\r",
+                                    "if(form.validate())\r",
+                                    "{\r",
+                                    "    if(Ext.isFunction(form.save))\r",
+                                    "    {\r",
+                                    "        var result = form.save(form.getRecord());\r",
+                                    "\r",
+                                    "        form.suspendEvents();\r",
+                                    "        form.close();\r",
+                                    "    }\r",
+                                    "}"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "designerId": "1e8c9366-0cab-44b7-bbf6-f78d25903967"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "icon-close24",
+                        "itemId": "btnClose",
+                        "layout|flex": null,
+                        "scale": "medium",
+                        "text": "",
+                        "tooltip": [
+                            "გაუქმება"
+                        ]
+                    },
+                    "designerId": "32d0857f-be9c-4435-bf23-534e249cf5ce",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onBtnCloseClick",
+                                "implHandler": [
+                                    "var form = button.up('addproduct');\r",
+                                    "\r",
+                                    "form.close();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "designerId": "ed0f2570-dcad-4b1a-ad63-40f2530cc3d7"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "validate",
+                "implHandler": [
+                    "var form = this;\r",
+                    "var txtName = FindControl(form, 'txtName');\r",
+                    "var txtInputPrice = FindControl(form, 'txtInputPrice');\r",
+                    "var txtOutputPrice = FindControl(form, 'txtOutputPrice');\r",
+                    "var cmbSizeUnits = FindControl(form, 'cmbSizeUnits');\r",
+                    "\r",
+                    "var valid = true;\r",
+                    "\r",
+                    "valid = valid && txtName.validate();\r",
+                    "// valid = valid && txtInputPrice.validate();\r",
+                    "// valid = valid && txtOutputPrice.validate();\r",
+                    "valid = valid && cmbSizeUnits.validate();\r",
+                    "\r",
+                    "return valid;"
+                ]
+            },
+            "designerId": "2e061696-e18d-41f8-a954-6606a260f130"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "setRecord",
+                "implHandler": [
+                    "var form = this;\r",
+                    "var txtName = FindControl(form, 'txtName');\r",
+                    "// var txtInputPrice = FindControl(form, 'txtInputPrice');\r",
+                    "// var txtOutputPrice = FindControl(form, 'txtOutputPrice');\r",
+                    "var cmbSizeUnits = FindControl(form, 'cmbSizeUnits');\r",
+                    "// var txtNeto = FindControl(form, 'txtNeto');\r",
+                    "var chckDeleted = FindControl(form, 'chckDeleted');\r",
+                    "\r",
+                    "var model = form.formModel;\r",
+                    "\r",
+                    "if(IsNullOrEmpty(model))\r",
+                    "{\r",
+                    "    form.formModel = Ext.create('SIS.model.CustomerModel');\r",
+                    "}\r",
+                    "else\r",
+                    "{\r",
+                    "    txtName.setValue(model.get('Name'));\r",
+                    "//     txtInputPrice.setValue(model.get('InputPrice'));\r",
+                    "//     txtOutputPrice.setValue(model.get('OutputPrice'));\r",
+                    "    cmbSizeUnits.setValueSafe(model.get('SizeUnitID'));\r",
+                    "//     txtNeto.setValue(model.get('Neto'));\r",
+                    "    chckDeleted.setValue(model.get('Deleted'));\r",
+                    "}"
+                ]
+            },
+            "designerId": "a92b030e-d480-4b1f-ac6d-564bf7a2bcba"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getRecord",
+                "implHandler": [
+                    "var form = this;\r",
+                    "var txtName = FindControl(form, 'txtName');\r",
+                    "// var txtInputPrice = FindControl(form, 'txtInputPrice');\r",
+                    "// var txtOutputPrice = FindControl(form, 'txtOutputPrice');\r",
+                    "var cmbSizeUnits = FindControl(form, 'cmbSizeUnits');\r",
+                    "// var txtNeto = FindControl(form, 'txtNeto');\r",
+                    "var chckDeleted = FindControl(form, 'chckDeleted');\r",
+                    "\r",
+                    "var model = form.formModel;\r",
+                    "\r",
+                    "model.set('Name', txtName.getValue());\r",
+                    "// model.set('InputPrice', txtInputPrice.getValue());\r",
+                    "// model.set('OutputPrice', txtOutputPrice.getValue());\r",
+                    "model.set('SizeUnitID', cmbSizeUnits.getValue());\r",
+                    "// model.set('Neto', txtNeto.getValue());\r",
+                    "model.set('Deleted', chckDeleted.getValue());\r",
+                    "\r",
+                    "return model;"
+                ]
+            },
+            "designerId": "b48c0de3-cec7-4809-84cd-fa32d1877283"
+        }
+    ]
+}

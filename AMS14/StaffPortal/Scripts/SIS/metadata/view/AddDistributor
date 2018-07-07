@@ -1,0 +1,319 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userAlias": "adddistributor",
+        "designer|userClassName": "AddDistributor",
+        "height": 258,
+        "iconCls": "icon-add",
+        "keyMapConfig": [
+            "{\r",
+            "    bindings: [\r",
+            "        {\r",
+            "            ctrl: false,\r",
+            "            key: Ext.EventObject.ENTER,\r",
+            "            btnItemId: 'btnSave'\r",
+            "        }\r",
+            "    ]\r",
+            "}"
+        ],
+        "layout": "vbox",
+        "modal": true,
+        "title": "მომწოდებლის დამატება",
+        "width": 570
+    },
+    "configAlternates": {
+        "keyMapConfig": "object"
+    },
+    "designerId": "5eb70c97-0049-4e7f-8e99-3158dcbf0390",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "keyMapConfig",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "allowBlank": false,
+                "fieldLabel": "დასახელება",
+                "itemId": "txtName",
+                "labelWidth": 180,
+                "margin": "10 10 10 10",
+                "selectOnFocus": true
+            },
+            "designerId": "f2029c02-bf54-4ed8-a5b0-279fa43ad86c"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "allowBlank": false,
+                "fieldLabel": "საიდენტიფიკაციო ნომერი",
+                "itemId": "txtCode",
+                "labelWidth": 180,
+                "layout|flex": null,
+                "margin": "0 10 10 10",
+                "selectOnFocus": true
+            },
+            "designerId": "f4fa0352-b48a-4f7f-bd33-5bd5db8cd9a2"
+        },
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "allowBlank": false,
+                "fieldLabel": "მისამართი",
+                "itemId": "txtAddress",
+                "labelWidth": 180,
+                "layout|flex": null,
+                "margin": "0 10 10 10",
+                "selectOnFocus": true
+            },
+            "designerId": "8181dd9d-c6d4-4cd0-b10a-d010c934f278"
+        },
+        {
+            "type": "Ext.form.field.Checkbox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "boxLabel": "გაუქმება",
+                "fieldLabel": "",
+                "itemId": "chckDeleted",
+                "labelWidth": null,
+                "layout|flex": null,
+                "margin": "0 10 10 195"
+            },
+            "designerId": "1776c359-a88f-436a-aef4-7ef81d3a51d8"
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "layout": "hbox",
+                "layout|flex": null,
+                "margin": "30 10 10 10"
+            },
+            "designerId": "789a7cfe-b4f9-476d-9df7-df8733186202",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1
+                    },
+                    "designerId": "3c71bdb4-8284-46ac-8c3c-53d682cd2cc6"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "icon-save24",
+                        "itemId": "btnSave",
+                        "layout|flex": null,
+                        "margin": "0 10 0 0",
+                        "scale": "medium",
+                        "text": "",
+                        "tooltip": [
+                            "შენახვა"
+                        ]
+                    },
+                    "designerId": "2de6d023-59b0-4120-b5b1-7bca131e0c3e",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onBtnSaveClick",
+                                "implHandler": [
+                                    "var form = button.up('adddistributor');\r",
+                                    "\r",
+                                    "if(form.validate())\r",
+                                    "{\r",
+                                    "    if(Ext.isFunction(form.save))\r",
+                                    "    {\r",
+                                    "        var result = form.save(form.getRecord());\r",
+                                    "\r",
+                                    "        form.suspendEvents();\r",
+                                    "        form.close();\r",
+                                    "    }\r",
+                                    "}"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "designerId": "88af6a8e-ba1d-41e8-9f24-f3ac09210440"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "icon-close24",
+                        "itemId": "btnClose",
+                        "layout|flex": null,
+                        "scale": "medium",
+                        "text": "",
+                        "tooltip": [
+                            "გაუქმება"
+                        ]
+                    },
+                    "designerId": "52e149a3-237d-4d50-ae74-d33210344d5a",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onBtnCloseClick",
+                                "implHandler": [
+                                    "var form = button.up('adddistributor');\r",
+                                    "\r",
+                                    "form.close();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "designerId": "9b0b7620-6b97-411c-a83c-c7d819b0e4e6"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "validate",
+                "implHandler": [
+                    "var form = this;\r",
+                    "var txtName = FindControl(form, 'txtName');\r",
+                    "var txtCode = FindControl(form, 'txtCode');\r",
+                    "var txtAddress = FindControl(form, 'txtAddress');\r",
+                    "\r",
+                    "var valid = true;\r",
+                    "\r",
+                    "valid = valid && txtName.validate();\r",
+                    "valid = valid && txtCode.validate();\r",
+                    "valid = valid && txtAddress.validate();\r",
+                    "\r",
+                    "return valid;"
+                ]
+            },
+            "designerId": "ffb1be58-a6a7-4748-827a-f29d183a6318"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "setRecord",
+                "implHandler": [
+                    "var form = this;\r",
+                    "var txtName = FindControl(form, 'txtName');\r",
+                    "var txtCode = FindControl(form, 'txtCode');\r",
+                    "var txtAddress = FindControl(form, 'txtAddress');\r",
+                    "var chckDeleted = FindControl(form, 'chckDeleted');\r",
+                    "\r",
+                    "var model = form.formModel;\r",
+                    "\r",
+                    "if(IsNullOrEmpty(model))\r",
+                    "{\r",
+                    "    form.formModel = Ext.create('SIS.model.DistributorModel');\r",
+                    "}\r",
+                    "else\r",
+                    "{\r",
+                    "    txtName.setValue(model.get('Name'));\r",
+                    "    txtCode.setValue(model.get('Code'));\r",
+                    "    txtAddress.setValue(model.get('Address'));\r",
+                    "    chckDeleted.setValue(model.get('Deleted'));\r",
+                    "}"
+                ]
+            },
+            "designerId": "dd9259b7-1fc4-4c83-807a-cba302d7283f"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getRecord",
+                "implHandler": [
+                    "var form = this;\r",
+                    "var txtName = FindControl(form, 'txtName');\r",
+                    "var txtCode = FindControl(form, 'txtCode');\r",
+                    "var txtAddress = FindControl(form, 'txtAddress');\r",
+                    "var chckDeleted = FindControl(form, 'chckDeleted');\r",
+                    "\r",
+                    "var model = form.formModel;\r",
+                    "\r",
+                    "model.set('Name', txtName.getValue());\r",
+                    "model.set('Code', txtCode.getValue());\r",
+                    "model.set('Address', txtAddress.getValue());\r",
+                    "model.set('Deleted', chckDeleted.getValue());\r",
+                    "\r",
+                    "return model;"
+                ]
+            },
+            "designerId": "cbfa0c1c-344c-41de-9b75-c39a684e4591"
+        }
+    ]
+}

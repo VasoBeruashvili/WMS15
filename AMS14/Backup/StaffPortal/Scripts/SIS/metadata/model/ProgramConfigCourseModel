@@ -1,0 +1,136 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ProgramConfigCourseModel"
+    },
+    "designerId": "20020dc1-99a6-4963-8213-ca4950c3bf2a",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "programConfigID"
+            },
+            "designerId": "322c3d47-e402-4682-8865-8a4540c4a4ce"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "CourseID"
+            },
+            "designerId": "d95b95d7-98e7-402e-b3df-b41de6a6f264"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ExamTypeID"
+            },
+            "designerId": "8e064bb2-aa2f-49aa-940c-1c886323fcf4"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID"
+            },
+            "designerId": "4c57ed05-dbe4-4dd9-8dc9-f6b99aed8cb2"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ProgramID"
+            },
+            "designerId": "c9888848-f6d3-4111-ab8e-092bffe1f5c6"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "CreateDate"
+            },
+            "designerId": "441553e0-b214-42a0-8103-2dfb8bc6192f"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "StartDate"
+            },
+            "designerId": "5f56c7f7-e041-4803-9b50-2bc88c93b3c0"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "EndDate"
+            },
+            "designerId": "cae430e8-543f-4f69-8145-196307407049"
+        },
+        {
+            "type": "Ext.data.association.HasMany",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "hasManyProgramConfigWeekModel",
+                "model": "ProgramConfigWeekModel",
+                "name": "CourseWeeks"
+            },
+            "designerId": "5fb8690d-8c16-4908-b5d8-d179a995a5d5"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Deleted"
+            },
+            "designerId": "59303a4b-f3c4-4f4a-a6a5-dc6fe8011027"
+        }
+    ]
+}

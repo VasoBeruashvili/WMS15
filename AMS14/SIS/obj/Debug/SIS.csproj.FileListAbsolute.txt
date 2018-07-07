@@ -1,0 +1,254 @@
+E:\WORK\GTUCMS\Source\SIS\bin\Debug\SIS.dll.config
+E:\WORK\GTUCMS\Source\SIS\bin\Debug\SIS.dll
+E:\WORK\GTUCMS\Source\SIS\bin\Debug\SIS.pdb
+E:\WORK\GTUCMS\Source\SIS\bin\Debug\EntityFramework.dll
+E:\WORK\GTUCMS\Source\SIS\bin\Debug\EntityFramework.SqlServer.dll
+E:\WORK\GTUCMS\Source\SIS\bin\Debug\Newtonsoft.Json.dll
+E:\WORK\GTUCMS\Source\SIS\bin\Debug\EntityFramework.xml
+E:\WORK\GTUCMS\Source\SIS\bin\Debug\EntityFramework.SqlServer.xml
+E:\WORK\GTUCMS\Source\SIS\bin\Debug\Newtonsoft.Json.xml
+E:\WORK\GTUCMS\Source\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+E:\WORK\GTUCMS\Source\SIS\obj\Debug\SIS.dll
+E:\WORK\GTUCMS\Source\SIS\obj\Debug\SIS.pdb
+D:\GTUCMS\SIS\bin\Debug\SIS.dll.config
+D:\GTUCMS\SIS\bin\Debug\SIS.dll
+D:\GTUCMS\SIS\bin\Debug\SIS.pdb
+D:\GTUCMS\SIS\bin\Debug\EntityFramework.dll
+D:\GTUCMS\SIS\bin\Debug\EntityFramework.SqlServer.dll
+D:\GTUCMS\SIS\bin\Debug\Newtonsoft.Json.dll
+D:\GTUCMS\SIS\bin\Debug\EntityFramework.xml
+D:\GTUCMS\SIS\bin\Debug\EntityFramework.SqlServer.xml
+D:\GTUCMS\SIS\bin\Debug\Newtonsoft.Json.xml
+D:\GTUCMS\SIS\obj\Debug\SIS.dll
+D:\GTUCMS\SIS\obj\Debug\SIS.pdb
+D:\GTUCMS\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+D:\GTUCMS Archives\GTUCMS\GTUCMS\SIS\bin\Debug\SIS.dll.config
+D:\GTUCMS Archives\GTUCMS\GTUCMS\SIS\bin\Debug\SIS.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\SIS\bin\Debug\SIS.pdb
+D:\GTUCMS Archives\GTUCMS\GTUCMS\SIS\bin\Debug\EntityFramework.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\SIS\bin\Debug\EntityFramework.SqlServer.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\SIS\bin\Debug\Newtonsoft.Json.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\SIS\bin\Debug\EntityFramework.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\SIS\bin\Debug\EntityFramework.SqlServer.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\SIS\bin\Debug\Newtonsoft.Json.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+D:\GTUCMS Archives\GTUCMS\GTUCMS\SIS\obj\Debug\SIS.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\SIS\obj\Debug\SIS.pdb
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\bin\Debug\SIS.dll.config
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\bin\Debug\SIS.dll
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\bin\Debug\SIS.pdb
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\bin\Debug\EntityFramework.dll
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\bin\Debug\EntityFramework.SqlServer.dll
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\bin\Debug\EPPlus.dll
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\bin\Debug\Newtonsoft.Json.dll
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\bin\Debug\EntityFramework.xml
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\bin\Debug\EntityFramework.SqlServer.xml
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\bin\Debug\EPPlus.xml
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\bin\Debug\Newtonsoft.Json.xml
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\obj\Debug\SIS.dll
+D:\vagzalapi\vagzalapi\vagzalapi\SIS\obj\Debug\SIS.pdb
+D:\AMS14\AMS14\SIS\bin\Debug\SIS.dll.config
+D:\AMS14\AMS14\SIS\bin\Debug\SIS.dll
+D:\AMS14\AMS14\SIS\bin\Debug\SIS.pdb
+D:\AMS14\AMS14\SIS\bin\Debug\EntityFramework.dll
+D:\AMS14\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+D:\AMS14\AMS14\SIS\bin\Debug\EPPlus.dll
+D:\AMS14\AMS14\SIS\bin\Debug\Newtonsoft.Json.dll
+D:\AMS14\AMS14\SIS\bin\Debug\EntityFramework.xml
+D:\AMS14\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+D:\AMS14\AMS14\SIS\bin\Debug\EPPlus.xml
+D:\AMS14\AMS14\SIS\bin\Debug\Newtonsoft.Json.xml
+D:\AMS14\AMS14\SIS\obj\Debug\SIS.dll
+D:\AMS14\AMS14\SIS\obj\Debug\SIS.pdb
+E:\AMS14\AMS14\SIS\bin\Debug\SIS.dll.config
+E:\AMS14\AMS14\SIS\bin\Debug\SIS.dll
+E:\AMS14\AMS14\SIS\bin\Debug\SIS.pdb
+E:\AMS14\AMS14\SIS\bin\Debug\EntityFramework.dll
+E:\AMS14\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+E:\AMS14\AMS14\SIS\bin\Debug\EPPlus.dll
+E:\AMS14\AMS14\SIS\bin\Debug\Newtonsoft.Json.dll
+E:\AMS14\AMS14\SIS\bin\Debug\EntityFramework.xml
+E:\AMS14\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+E:\AMS14\AMS14\SIS\bin\Debug\EPPlus.xml
+E:\AMS14\AMS14\SIS\bin\Debug\Newtonsoft.Json.xml
+E:\AMS14\AMS14\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+E:\AMS14\AMS14\SIS\obj\Debug\SIS.dll
+E:\AMS14\AMS14\SIS\obj\Debug\SIS.pdb
+E:\AMS14\AMS14\AMS14\SIS\bin\Debug\SIS.dll.config
+E:\AMS14\AMS14\AMS14\SIS\bin\Debug\SIS.dll
+E:\AMS14\AMS14\AMS14\SIS\bin\Debug\SIS.pdb
+E:\AMS14\AMS14\AMS14\SIS\bin\Debug\EntityFramework.dll
+E:\AMS14\AMS14\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+E:\AMS14\AMS14\AMS14\SIS\bin\Debug\EPPlus.dll
+E:\AMS14\AMS14\AMS14\SIS\bin\Debug\Newtonsoft.Json.dll
+E:\AMS14\AMS14\AMS14\SIS\bin\Debug\EntityFramework.xml
+E:\AMS14\AMS14\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+E:\AMS14\AMS14\AMS14\SIS\bin\Debug\EPPlus.xml
+E:\AMS14\AMS14\AMS14\SIS\bin\Debug\Newtonsoft.Json.xml
+E:\AMS14\AMS14\AMS14\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+E:\AMS14\AMS14\AMS14\SIS\obj\Debug\SIS.dll
+E:\AMS14\AMS14\AMS14\SIS\obj\Debug\SIS.pdb
+D:\My Folder\AMS14\AMS14\AMS14\SIS\bin\Debug\SIS.dll.config
+D:\My Folder\AMS14\AMS14\AMS14\SIS\bin\Debug\SIS.dll
+D:\My Folder\AMS14\AMS14\AMS14\SIS\bin\Debug\SIS.pdb
+D:\My Folder\AMS14\AMS14\AMS14\SIS\bin\Debug\EntityFramework.dll
+D:\My Folder\AMS14\AMS14\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+D:\My Folder\AMS14\AMS14\AMS14\SIS\bin\Debug\EPPlus.dll
+D:\My Folder\AMS14\AMS14\AMS14\SIS\bin\Debug\Newtonsoft.Json.dll
+D:\My Folder\AMS14\AMS14\AMS14\SIS\bin\Debug\EntityFramework.xml
+D:\My Folder\AMS14\AMS14\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+D:\My Folder\AMS14\AMS14\AMS14\SIS\bin\Debug\EPPlus.xml
+D:\My Folder\AMS14\AMS14\AMS14\SIS\bin\Debug\Newtonsoft.Json.xml
+D:\My Folder\AMS14\AMS14\AMS14\SIS\obj\Debug\SIS.dll
+D:\My Folder\AMS14\AMS14\AMS14\SIS\obj\Debug\SIS.pdb
+D:\My Folder\AMS14\AMS14\SIS\bin\Debug\SIS.dll.config
+D:\My Folder\AMS14\AMS14\SIS\bin\Debug\SIS.dll
+D:\My Folder\AMS14\AMS14\SIS\bin\Debug\SIS.pdb
+D:\My Folder\AMS14\AMS14\SIS\bin\Debug\EntityFramework.dll
+D:\My Folder\AMS14\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+D:\My Folder\AMS14\AMS14\SIS\bin\Debug\EPPlus.dll
+D:\My Folder\AMS14\AMS14\SIS\bin\Debug\ExcelLibrary.dll
+D:\My Folder\AMS14\AMS14\SIS\bin\Debug\Newtonsoft.Json.dll
+D:\My Folder\AMS14\AMS14\SIS\bin\Debug\EntityFramework.xml
+D:\My Folder\AMS14\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+D:\My Folder\AMS14\AMS14\SIS\bin\Debug\EPPlus.xml
+D:\My Folder\AMS14\AMS14\SIS\bin\Debug\Newtonsoft.Json.xml
+D:\My Folder\AMS14\AMS14\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+D:\My Folder\AMS14\AMS14\SIS\obj\Debug\SIS.csproj.ResolveComReference.cache
+D:\My Folder\AMS14\AMS14\SIS\obj\Debug\SIS.dll
+D:\My Folder\AMS14\AMS14\SIS\obj\Debug\SIS.pdb
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\obj\Debug\SIS.csproj.ResolveComReference.cache
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\obj\Debug\SIS.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\obj\Debug\SIS.pdb
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\bin\Debug\SIS.dll.config
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\bin\Debug\SIS.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\bin\Debug\SIS.pdb
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\bin\Debug\EntityFramework.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\bin\Debug\EPPlus.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\bin\Debug\ExcelLibrary.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\bin\Debug\Newtonsoft.Json.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\bin\Debug\EntityFramework.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\bin\Debug\EPPlus.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\SIS\bin\Debug\Newtonsoft.Json.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\bin\Debug\SIS.dll.config
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\bin\Debug\SIS.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\bin\Debug\SIS.pdb
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\bin\Debug\EntityFramework.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\bin\Debug\EPPlus.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\bin\Debug\ExcelLibrary.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\bin\Debug\Newtonsoft.Json.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\bin\Debug\EntityFramework.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\bin\Debug\EPPlus.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\bin\Debug\Newtonsoft.Json.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\obj\Debug\SIS.csproj.ResolveComReference.cache
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\obj\Debug\SIS.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\obj\Debug\SIS.pdb
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\bin\Debug\SIS.dll.config
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\bin\Debug\SIS.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\bin\Debug\SIS.pdb
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\bin\Debug\EntityFramework.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\bin\Debug\EPPlus.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\bin\Debug\ExcelLibrary.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\bin\Debug\Newtonsoft.Json.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\bin\Debug\EntityFramework.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\bin\Debug\EPPlus.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\bin\Debug\Newtonsoft.Json.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\obj\Debug\SIS.csproj.ResolveComReference.cache
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\obj\Debug\SIS.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\SIS\obj\Debug\SIS.pdb
+D:\WMS14 Final Beta\AMS14\SIS\bin\Debug\SIS.dll.config
+D:\WMS14 Final Beta\AMS14\SIS\bin\Debug\SIS.dll
+D:\WMS14 Final Beta\AMS14\SIS\bin\Debug\SIS.pdb
+D:\WMS14 Final Beta\AMS14\SIS\bin\Debug\EntityFramework.dll
+D:\WMS14 Final Beta\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+D:\WMS14 Final Beta\AMS14\SIS\bin\Debug\EPPlus.dll
+D:\WMS14 Final Beta\AMS14\SIS\bin\Debug\ExcelLibrary.dll
+D:\WMS14 Final Beta\AMS14\SIS\bin\Debug\Newtonsoft.Json.dll
+D:\WMS14 Final Beta\AMS14\SIS\bin\Debug\EntityFramework.xml
+D:\WMS14 Final Beta\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+D:\WMS14 Final Beta\AMS14\SIS\bin\Debug\EPPlus.xml
+D:\WMS14 Final Beta\AMS14\SIS\bin\Debug\Newtonsoft.Json.xml
+D:\WMS14 Final Beta\AMS14\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+D:\WMS14 Final Beta\AMS14\SIS\obj\Debug\Interop.LCC11.dll
+D:\WMS14 Final Beta\AMS14\SIS\obj\Debug\SIS.csproj.ResolveComReference.cache
+D:\WMS14 Final Beta\AMS14\SIS\obj\Debug\SIS.dll
+D:\WMS14 Final Beta\AMS14\SIS\obj\Debug\SIS.pdb
+D:\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\SIS.dll.config
+D:\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\SIS.dll
+D:\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\SIS.pdb
+D:\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.dll
+D:\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+D:\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EPPlus.dll
+D:\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\ExcelLibrary.dll
+D:\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Newtonsoft.Json.dll
+D:\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.xml
+D:\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+D:\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EPPlus.xml
+D:\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Newtonsoft.Json.xml
+D:\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\Interop.LCC11.dll
+D:\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.csproj.ResolveComReference.cache
+D:\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.dll
+D:\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.pdb
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\SIS.dll.config
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\SIS.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\SIS.pdb
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EPPlus.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\ExcelLibrary.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Newtonsoft.Json.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EPPlus.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Newtonsoft.Json.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\Interop.LCC11.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.csproj.ResolveComReference.cache
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.pdb
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\SIS.dll.config
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\SIS.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\SIS.pdb
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EPPlus.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\ExcelLibrary.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Newtonsoft.Json.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EPPlus.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Newtonsoft.Json.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\Interop.LCC11.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.csproj.ResolveComReference.cache
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.pdb
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\SIS.dll.config
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\SIS.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\SIS.pdb
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\Interop.LCC11.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.csproj.ResolveComReference.cache
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.pdb
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Spire.Common.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Spire.License.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Spire.Pdf.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Spire.XLS.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Microsoft.mshtml.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Spire.Common.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Spire.Pdf.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\bin\Debug\Spire.XLS.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\SIS\obj\Debug\SIS.csprojResolveAssemblyReference.cache

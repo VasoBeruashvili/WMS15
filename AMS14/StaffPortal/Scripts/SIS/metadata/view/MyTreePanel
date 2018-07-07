@@ -1,0 +1,74 @@
+{
+    "type": "Ext.tree.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "animCollapse": null,
+        "animate": true,
+        "border": null,
+        "collapseDirection": "left",
+        "collapsed": false,
+        "collapsible": null,
+        "designer|userAlias": "mytreepanel",
+        "designer|userClassName": "MyTreePanel",
+        "hideCollapseTool": null,
+        "icon": null,
+        "iconCls": "menu",
+        "itemId": "MenuTree",
+        "resizable": null,
+        "rootVisible": false,
+        "store": "MyTreeStore",
+        "storeClassName": null,
+        "title": "მთავარი მენიუ",
+        "titleCollapse": null,
+        "width": 280
+    },
+    "designerId": "89380af2-367b-4683-923f-6cb79d9468a6",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "storeClassName",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "Ext.tree.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "396f0640-c1cd-4d89-8065-4197e9136009"
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onMenuTreeSelect",
+                "implHandler": [
+                    "/*\r",
+                    "    var menuTree = this;\r",
+                    "    //alert(menuTree.getId());\r",
+                    "    //menuTree.setDisabled(true);\r",
+                    "    //rowmodel.expand();\r",
+                    "    var rec = menuTree.getSelectedRecord();\r",
+                    "    rec.expandChildren();\r",
+                    "*/\r",
+                    "\r",
+                    ""
+                ],
+                "name": "select",
+                "scope": "me"
+            },
+            "designerId": "71084d62-9a3c-4283-8fd1-600c79a63c4c"
+        }
+    ]
+}

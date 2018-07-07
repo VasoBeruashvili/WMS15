@@ -1,0 +1,39 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "IncomeProductArrayStore",
+        "model": "IncomeProductModel",
+        "storeId": "IncomeProductArrayStore"
+    },
+    "designerId": "cc1daacf-7457-4426-b08e-55e9316693a5",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "/Home/False"
+            },
+            "designerId": "868156b4-9e95-4dd8-b1ac-93ff9585a86c",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Array",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "a62355bd-2ac6-45c4-8e6b-89854a32faff"
+                }
+            ]
+        }
+    ]
+}

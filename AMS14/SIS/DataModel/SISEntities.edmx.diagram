@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ffe3f3ac0c8b4451a57bcfaa6bfe6013" Name="Diagram1" ZoomLevel="25">
+        <EntityTypeShape EntityType="DataModel.Balance" Width="1.5" PointX="9.98278624284211" PointY="9.474722985864954" />
+        <EntityTypeShape EntityType="DataModel.Customer" Width="1.5" PointX="1.7079391431566044" PointY="4.831483932599185" />
+        <EntityTypeShape EntityType="DataModel.Detail" Width="1.5" PointX="0.35772071236638381" PointY="13.352411246556979" />
+        <EntityTypeShape EntityType="DataModel.Distributor" Width="1.5" PointX="9.8073920075816066" PointY="1.90881520598606" />
+        <EntityTypeShape EntityType="DataModel.File" Width="1.5" PointX="8.1477866788151623" PointY="3.6063681112632007" />
+        <EntityTypeShape EntityType="DataModel.Form" Width="1.5" PointX="11.201211958751646" PointY="27.445284140969292" />
+        <EntityTypeShape EntityType="DataModel.MenuItem" Width="1.5" PointX="3.7400665412377876" PointY="15.486360288917254" />
+        <EntityTypeShape EntityType="DataModel.Operation" Width="1.5" PointX="0.6882269609199031" PointY="31.774667411937688" />
+        <EntityTypeShape EntityType="DataModel.Product" Width="1.5" PointX="10.695850123975356" PointY="11.348889058152627" />
+        <EntityTypeShape EntityType="DataModel.SizeUnit" Width="1.5" PointX="2.8684530718570822" PointY="3.826666297310342" />
+        <EntityTypeShape EntityType="DataModel.User" Width="1.5" PointX="8.5306414442745222" PointY="7.0441442164798005" />
+        <AssociationConnector Association="DataModel.FK_Balances_SizeUnits" />
+        <AssociationConnector Association="DataModel.FK_tbloperaciebi_tblmyidvelebi" />
+        <AssociationConnector Association="DataModel.FK_Details_SizeUnits" />
+        <AssociationConnector Association="DataModel.FK_tbldetalebi_tbloperaciebi" />
+        <AssociationConnector Association="DataModel.FK_tbldetalebi_tblsaqoneli" />
+        <AssociationConnector Association="DataModel.FK_tbloperaciebi_tblmomwodebeli" />
+        <AssociationConnector Association="DataModel.FK_MenuItems_Forms" />
+        <AssociationConnector Association="DataModel.FK_MenuItems_MenuItems" />
+        <AssociationConnector Association="DataModel.FK_tblsaqoneli_tblzomisert" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

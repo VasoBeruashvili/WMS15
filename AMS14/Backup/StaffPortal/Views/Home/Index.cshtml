@@ -1,0 +1,351 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <style type="text/css">
+        body {
+            background-color: #ffd800;
+        }
+
+        .icon-customers {
+            background-image: url("/Content/Resources/16icon/customers16.png");
+        }
+
+        .normal-row .x-grid-cell {
+            background-color: #81e683;
+
+        }
+
+        .deleted-row .x-grid-cell {
+            background-color: #f75f5f;
+
+        }
+
+        .other-row .x-grid-cell {
+            background-color: #b0c8ce;
+
+        }
+
+        .icon-search {
+            background-image: url("/Content/Resources/16icon/search16.png");
+        }
+
+        .active16 {
+            background-image: url("/Content/Resources/active16.png");
+        }
+
+        .refresh16 {
+            background-image: url("/Content/Resources/16icon/refresh16.png");
+        }
+
+        .icon-block16 {
+            background-image: url("/Content/Resources/16icon/Blocking16.png");
+        }
+
+        .icon-active16 {
+            background-image: url("/Content/Resources/16icon/Activate16.png");
+        }
+
+        .icon-print {
+            background-image: url("/Content/Resources/16icon/print16.png");
+        }
+
+        .icon-save16 {
+            background-image: url("/Content/Resources/16icon/save16.png");
+        }
+
+        .icon-closedoor16 {
+            background-image: url("/Content/Resources/16icon/close16.png");
+        }
+
+        .icon-clear {
+            background-image: url("/Content/Resources/16icon/clear16.png");
+        }
+
+        .icon-delete {
+            background-image: url("/Content/Resources/16icon/delete16.png");
+        }
+
+        .icon-add {
+            background-image: url("/Content/Resources/16icon/add16.png");
+        }
+
+        .icon-edit {
+            background-image: url("/Content/Resources/16icon/edit16.png");
+        }
+
+        .icon-cancel {
+            background-image: url("/Content/Resources/Cancel-icon.png");
+        }
+
+        .icon-config {
+            background-image: url("/Content/Resources/16icon/configuration16.png");
+        }
+
+        .icon-ok {
+            background-image: url("/Content/Resources/ok.gif");
+        }
+
+        .icon-link {
+            background-image: url("/Content/Resources/16icon/link16.png");
+        }
+
+        .icon-unlink {
+            background-image: url("/Content/Resources/16icon/linkdelete16.png");
+        }
+
+        .icon-up {
+            background-image: url("/Content/Resources/16icon/Up16.png");
+        }
+
+        .icon-down {
+            background-image: url("/Content/Resources/16icon/Down16.png");
+        }
+
+        .icon-print {
+            background-image: url("/Content/Resources/16icon/printer16.png");
+        }
+
+        .icon-upload {
+            background-image: url("/Content/Resources/16icon/upload16.png");
+        }
+
+        .icon-view {
+            background-image: url("/Content/Resources/16icon/view16.png");
+        }
+
+        .icon-ident {
+            background-image: url("/Content/Resources/16icon/Userps16.png");
+        }
+        .icon-watch {
+            background-image: url("/Content/Resources/16icon/watch16.png");
+        }
+        .icon-left {
+            background-image: url("/Content/Resources/16icon/Left16.png");
+        }
+        .icon-right {
+            background-image: url("/Content/Resources/16icon/Right16.png");
+        }
+
+        .profile {
+            background-image: url("/Content/Resources/profile.png");
+        }
+
+        /*----------------------------------icons 32----------------*/
+        .icon-active32 {
+            background-image: url("/Content/Resources/32icon/activate32.png");
+        }
+
+        .icon-balance32 {
+            background-image: url("/Content/Resources/32icon/icon-balance32.png");
+        }
+
+        .icon-add32 {
+            background-image: url("/Content/Resources/32icon/add32.png");
+        }
+
+        .icon-block32 {
+            background-image: url("/Content/Resources/32icon/blocking32.png");
+        }
+
+        .icon-clear32 {
+            background-image: url("/Content/Resources/32icon/clear32.png");
+        }
+
+        .icon-close32 {
+            background-image: url("/Content/Resources/32icon/close32.png");
+        }
+
+        .icon-config32 {
+            background-image: url("/Content/Resources/32icon/configuration32.png");
+        }
+
+        .icon-delete32 {
+            background-image: url("/Content/Resources/32icon/delete32.png");
+        }
+
+        .icon-down32 {
+            background-image: url("/Content/Resources/32icon/down32.png");
+        }
+
+        .icon-up32 {
+            background-image: url("/Content/Resources/32icon/up32.png");
+        }
+
+        .icon-edit32 {
+            background-image: url("/Content/Resources/32icon/edit32.png");
+        }
+
+        .icon-link32 {
+            background-image: url("/Content/Resources/32icon/link32.png");
+        }
+
+        .icon-print32 {
+            background-image: url("/Content/Resources/32icon/printer32.png");
+        }
+
+        .icon-return32 {
+            background-image: url("/Content/Resources/32icon/return32.png");
+        }
+
+        .icon-save32 {
+            background-image: url("/Content/Resources/32icon/save32.png");
+        }
+
+        .icon-search32 {
+            background-image: url("/Content/Resources/32icon/search32.png");
+        }
+
+        .icon-upload32 {
+            background-image: url("/Content/Resources/32icon/upload32.png");
+        }
+
+        .icon-view32 {
+            background-image: url("/Content/Resources/32icon/view32.png");
+        }
+
+        .icon-unlink32 {
+            background-image: url("/Content/Resources/32icon/linkdelete32_1.png");
+        }
+
+        .icon-introduction32 {
+            background-image: url("/Content/Resources/32icon/Introduction32.png");
+        }
+
+
+        /* 24 px*/
+
+        .icon-save24 {
+            background-image: url("/Content/Resources/24icon/Save24.png");
+        }
+
+        .icon-excel24 {
+            background-image: url("/Content/Resources/24icon/icon-excel24.png");
+        }
+
+        .icon-add24 {
+            background-image: url("/Content/Resources/24icon/add24.png");
+        }
+
+        .icon-close24 {
+            background-image: url("/Content/Resources/24icon/Close24.png");
+        }
+
+
+        .icon-view24 {
+            background-image: url("/Content/Resources/24icon/View24.png");
+        }
+
+        .icon-active24 {
+            background-image: url("/Content/Resources/24icon/Activate24.png");
+        }
+
+        .icon-block24 {
+            background-image: url("/Content/Resources/24icon/Blocking24.png");
+        }
+
+        .conf {
+            background-image: url("/Content/Resources/confgg.png");
+        }
+
+        .send {
+            background-image: url("/Content/Resources/send.png");
+        }
+
+        .home {
+            background-image: url("/Content/Resources/home.png");
+        }
+
+        .menu {
+            background-image: url("/Content/Resources/menu.png");
+        }
+
+        .config {
+            background-image: url("/Content/Resources/config.png");
+        }
+
+        .add1 {
+            background-image: url("/Content/Resources/add1.png");
+        }
+
+        .x-grid-hd-inner {
+            overflow: hidden;
+            padding: 2px 2px 2px 2px;
+            white-space: normal;
+        }
+
+        .x-column-header-inner .x-column-header-text {
+            white-space: normal;
+        }
+
+        .x-column-header-inner {
+            line-height: inherit;
+            padding-top: 2px !important;
+            padding-bottom: 2px !important;
+            text-align: center;
+            top: 5%;
+        }
+
+        #footer_container {
+            background: #3c3c3c;
+            bottom: 0;
+            position: fixed;
+            height: 45px;
+            width: 100%;
+        }
+
+        .x-message-box .x-box-inner {
+            overflow: visible !important;
+        }
+
+        .side-panel {
+            /*background-color: #DEDEDE !important;*/
+        }
+
+        .x-grid-cell-inner img.online {
+            width:16px;
+            background-image: url("/Content/Resources/birthday.ico");
+        }
+
+        .x-grid-cell-inner img.remove1 {
+            width:16px;
+            background-image: url("/Content/Resources/remove1.ico");
+        }
+
+    </style>
+    <link rel="stylesheet" href="~/Scripts/ExtJS42/resources/css/ext-theme-neptune-333bf1ae-8e41-41b8-9253-0c6b07b2cd23.css" type="text/css" />
+    <link rel="stylesheet" href="~/Styles/calendar.css">
+    <script type="text/javascript" src="~/Scripts/ExtJS42/ext-all-dev.js"></script>
+    <script type="text/javascript" src="~/Scripts/CustomExtensions.js"></script>
+    <script type="text/javascript" src="~/Scripts/UsefulFunctions.js"></script>
+    <script type="text/javascript" src="~/Scripts/Resources.js"></script>
+    <script type="text/javascript" src="~/Scripts/SIS/app1.js"></script>
+    <script type="text/javascript" src="~/Scripts/scr.js"></script>
+
+    <script type="text/javascript">
+        var YEAR = @(DateTime.Now.Year);
+        var MONTH = @(DateTime.Now.Month);
+        var DAY = @(DateTime.Now.Day);
+        var WDAY = '@((int)(DateTime.Now.DayOfWeek))';
+        var HOUR = @(DateTime.Now.Hour);
+        var MINUTE = @(DateTime.Now.Minute);
+        var SECOND = @(DateTime.Now.Second);
+    </script>
+
+
+</head>
+
+
+<body>
+
+    @MiniProfiler.RenderIncludes()
+</body>
+</html>

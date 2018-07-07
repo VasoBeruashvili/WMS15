@@ -1,0 +1,75 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "OperationModel"
+    },
+    "designerId": "7d58fb14-676c-4ec1-b384-86d586840f8f",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID"
+            },
+            "designerId": "12b01097-0dad-4307-bbf0-b733b91bdf99"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "CustomerID"
+            },
+            "designerId": "45519fec-3b15-42b2-a28a-13e03f59f651"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "IO"
+            },
+            "designerId": "ae78dc44-2b0f-48d4-bf0e-043277b3318c"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "DistributorID"
+            },
+            "designerId": "8c7893a3-8efa-448f-8e9e-204f00a529ca"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Deleted",
+                "type": "boolean"
+            },
+            "designerId": "5e98f354-a57d-4c38-8e7a-269b183236ed"
+        }
+    ]
+}

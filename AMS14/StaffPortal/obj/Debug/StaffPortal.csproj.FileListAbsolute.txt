@@ -1,0 +1,773 @@
+E:\WORK\GTUCMS\Source\StaffPortal\bin\StaffPortal.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\StaffPortal.pdb
+E:\WORK\GTUCMS\Source\StaffPortal\bin\EntityFramework.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\EntityFramework.SqlServer.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\MiniProfiler.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\Newtonsoft.Json.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\SIS.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Net.Http.Formatting.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.Helpers.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.Http.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.Http.WebHost.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.Mvc.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.Razor.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.WebPages.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.WebPages.Razor.dll
+E:\WORK\GTUCMS\Source\StaffPortal\bin\SIS.pdb
+E:\WORK\GTUCMS\Source\StaffPortal\bin\EntityFramework.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\EntityFramework.SqlServer.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\MiniProfiler.pdb
+E:\WORK\GTUCMS\Source\StaffPortal\bin\MiniProfiler.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+E:\WORK\GTUCMS\Source\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\Newtonsoft.Json.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Net.Http.Formatting.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.Helpers.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.Http.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.Http.WebHost.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.Mvc.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.Razor.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.WebPages.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+E:\WORK\GTUCMS\Source\StaffPortal\bin\System.Web.WebPages.Razor.xml
+E:\WORK\GTUCMS\Source\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+E:\WORK\GTUCMS\Source\StaffPortal\obj\Debug\StaffPortal.dll
+E:\WORK\GTUCMS\Source\StaffPortal\obj\Debug\StaffPortal.pdb
+D:\GTUCMS\StaffPortal\bin\StaffPortal.dll
+D:\GTUCMS\StaffPortal\bin\StaffPortal.pdb
+D:\GTUCMS\StaffPortal\bin\EntityFramework.dll
+D:\GTUCMS\StaffPortal\bin\EntityFramework.SqlServer.dll
+D:\GTUCMS\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\GTUCMS\StaffPortal\bin\MiniProfiler.dll
+D:\GTUCMS\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+D:\GTUCMS\StaffPortal\bin\Newtonsoft.Json.dll
+D:\GTUCMS\StaffPortal\bin\SIS.dll
+D:\GTUCMS\StaffPortal\bin\System.Net.Http.Formatting.dll
+D:\GTUCMS\StaffPortal\bin\System.Web.Helpers.dll
+D:\GTUCMS\StaffPortal\bin\System.Web.Http.dll
+D:\GTUCMS\StaffPortal\bin\System.Web.Http.WebHost.dll
+D:\GTUCMS\StaffPortal\bin\System.Web.Mvc.dll
+D:\GTUCMS\StaffPortal\bin\System.Web.Razor.dll
+D:\GTUCMS\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+D:\GTUCMS\StaffPortal\bin\System.Web.WebPages.dll
+D:\GTUCMS\StaffPortal\bin\System.Web.WebPages.Razor.dll
+D:\GTUCMS\StaffPortal\bin\SIS.pdb
+D:\GTUCMS\StaffPortal\bin\EntityFramework.xml
+D:\GTUCMS\StaffPortal\bin\EntityFramework.SqlServer.xml
+D:\GTUCMS\StaffPortal\bin\MiniProfiler.pdb
+D:\GTUCMS\StaffPortal\bin\MiniProfiler.xml
+D:\GTUCMS\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+D:\GTUCMS\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+D:\GTUCMS\StaffPortal\bin\Newtonsoft.Json.xml
+D:\GTUCMS\StaffPortal\bin\System.Net.Http.Formatting.xml
+D:\GTUCMS\StaffPortal\bin\System.Web.Helpers.xml
+D:\GTUCMS\StaffPortal\bin\System.Web.Http.xml
+D:\GTUCMS\StaffPortal\bin\System.Web.Http.WebHost.xml
+D:\GTUCMS\StaffPortal\bin\System.Web.Mvc.xml
+D:\GTUCMS\StaffPortal\bin\System.Web.Razor.xml
+D:\GTUCMS\StaffPortal\bin\System.Web.WebPages.xml
+D:\GTUCMS\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+D:\GTUCMS\StaffPortal\bin\System.Web.WebPages.Razor.xml
+D:\GTUCMS\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+D:\GTUCMS\StaffPortal\obj\Debug\StaffPortal.dll
+D:\GTUCMS\StaffPortal\obj\Debug\StaffPortal.pdb
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\StaffPortal.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\StaffPortal.pdb
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\EntityFramework.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\EntityFramework.SqlServer.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\MiniProfiler.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\Newtonsoft.Json.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\SIS.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Net.Http.Formatting.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.Helpers.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.Http.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.Http.WebHost.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.Mvc.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.Razor.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.WebPages.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.WebPages.Razor.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\SIS.pdb
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\EntityFramework.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\EntityFramework.SqlServer.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\MiniProfiler.pdb
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\MiniProfiler.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\Newtonsoft.Json.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Net.Http.Formatting.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.Helpers.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.Http.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.Http.WebHost.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.Mvc.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.Razor.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.WebPages.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\bin\System.Web.WebPages.Razor.xml
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\obj\Debug\StaffPortal.dll
+D:\GTUCMS Archives\GTUCMS\GTUCMS\StaffPortal\obj\Debug\StaffPortal.pdb
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\StaffPortal.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\StaffPortal.pdb
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\EntityFramework.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\EntityFramework.SqlServer.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\MiniProfiler.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\Newtonsoft.Json.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\SIS.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Net.Http.Formatting.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.Helpers.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.Http.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.Http.WebHost.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.Mvc.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.Razor.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.WebPages.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.WebPages.Razor.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\SIS.pdb
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\EntityFramework.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\EntityFramework.SqlServer.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\MiniProfiler.pdb
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\MiniProfiler.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\Newtonsoft.Json.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Net.Http.Formatting.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.Helpers.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.Http.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.Http.WebHost.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.Mvc.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.Razor.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.WebPages.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\bin\System.Web.WebPages.Razor.xml
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\obj\Debug\StaffPortal.dll
+D:\GTUCMS Archives\GTUCMS\vagzalapi\StaffPortal\obj\Debug\StaffPortal.pdb
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\StaffPortal.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\StaffPortal.pdb
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\EntityFramework.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\EntityFramework.SqlServer.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\MiniProfiler.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\Newtonsoft.Json.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\SIS.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Net.Http.Formatting.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.Helpers.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.Http.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.Http.WebHost.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.Mvc.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.Razor.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.WebPages.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.WebPages.Razor.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\SIS.pdb
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\EntityFramework.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\EntityFramework.SqlServer.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\MiniProfiler.pdb
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\MiniProfiler.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\Newtonsoft.Json.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Net.Http.Formatting.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.Helpers.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.Http.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.Http.WebHost.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.Mvc.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.Razor.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.WebPages.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\bin\System.Web.WebPages.Razor.xml
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\obj\Debug\StaffPortal.dll
+D:\vagzalapi\vagzalapi\vagzalapi\StaffPortal\obj\Debug\StaffPortal.pdb
+D:\AMS14\AMS14\StaffPortal\bin\StaffPortal.dll
+D:\AMS14\AMS14\StaffPortal\bin\StaffPortal.pdb
+D:\AMS14\AMS14\StaffPortal\bin\EntityFramework.dll
+D:\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+D:\AMS14\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\AMS14\AMS14\StaffPortal\bin\MiniProfiler.dll
+D:\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+D:\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+D:\AMS14\AMS14\StaffPortal\bin\SIS.dll
+D:\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.Http.dll
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.dll
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+D:\AMS14\AMS14\StaffPortal\bin\SIS.pdb
+D:\AMS14\AMS14\StaffPortal\bin\EntityFramework.xml
+D:\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+D:\AMS14\AMS14\StaffPortal\bin\MiniProfiler.pdb
+D:\AMS14\AMS14\StaffPortal\bin\MiniProfiler.xml
+D:\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+D:\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+D:\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+D:\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.Http.xml
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.xml
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+D:\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+D:\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+D:\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+D:\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+E:\AMS14\AMS14\StaffPortal\bin\StaffPortal.dll
+E:\AMS14\AMS14\StaffPortal\bin\StaffPortal.pdb
+E:\AMS14\AMS14\StaffPortal\bin\EntityFramework.dll
+E:\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+E:\AMS14\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+E:\AMS14\AMS14\StaffPortal\bin\MiniProfiler.dll
+E:\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+E:\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+E:\AMS14\AMS14\StaffPortal\bin\SIS.dll
+E:\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.Http.dll
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.dll
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+E:\AMS14\AMS14\StaffPortal\bin\SIS.pdb
+E:\AMS14\AMS14\StaffPortal\bin\EntityFramework.xml
+E:\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+E:\AMS14\AMS14\StaffPortal\bin\MiniProfiler.pdb
+E:\AMS14\AMS14\StaffPortal\bin\MiniProfiler.xml
+E:\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+E:\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+E:\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+E:\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.Http.xml
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.xml
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+E:\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+E:\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+E:\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+E:\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\StaffPortal.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\StaffPortal.pdb
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\EntityFramework.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\MiniProfiler.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\SIS.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.Http.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\SIS.pdb
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\EntityFramework.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\MiniProfiler.pdb
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\MiniProfiler.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.Http.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+E:\AMS14 Test\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\StaffPortal.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\StaffPortal.pdb
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\EntityFramework.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\MiniProfiler.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\SIS.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.Http.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\SIS.pdb
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\EntityFramework.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\MiniProfiler.pdb
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\MiniProfiler.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.Http.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+E:\AMS14Test\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+E:\AMS14Test\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+E:\AMS14Test\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\StaffPortal.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\StaffPortal.pdb
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\EntityFramework.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\MiniProfiler.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\SIS.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Http.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\SIS.pdb
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\EntityFramework.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\MiniProfiler.pdb
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\MiniProfiler.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Http.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+E:\AMS14\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+E:\AMS14\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+E:\AMS14\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\StaffPortal.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\StaffPortal.pdb
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\EntityFramework.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\MiniProfiler.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\SIS.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Http.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\SIS.pdb
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\EntityFramework.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\MiniProfiler.pdb
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\MiniProfiler.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Http.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+D:\My Folder\AMS14\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\StaffPortal.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\StaffPortal.pdb
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\EntityFramework.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\MiniProfiler.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\SIS.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.Http.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\SIS.pdb
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\EntityFramework.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\MiniProfiler.pdb
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\MiniProfiler.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.Http.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.Razor.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+D:\My Folder\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+D:\My Folder\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+D:\My Folder\AMS14\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\StaffPortal.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\StaffPortal.pdb
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\EntityFramework.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\MiniProfiler.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\SIS.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.Http.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.Razor.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\SIS.pdb
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\EntityFramework.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\MiniProfiler.pdb
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\MiniProfiler.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.Http.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.Razor.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+D:\AMS14 Full Final Beta 30.09.2014\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\StaffPortal.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\StaffPortal.pdb
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\EntityFramework.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\MiniProfiler.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\SIS.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.Http.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.Razor.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\SIS.pdb
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\EntityFramework.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\MiniProfiler.pdb
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\MiniProfiler.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.Http.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.Razor.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+D:\AMS14 Full Final Beta 01.10.2014\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\StaffPortal.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\StaffPortal.pdb
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\EntityFramework.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\MiniProfiler.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\SIS.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.Http.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.Razor.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\SIS.pdb
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\EntityFramework.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\MiniProfiler.pdb
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\MiniProfiler.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.Http.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.Razor.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+D:\AMS14 Full Final Beta Changed 08.10.2014\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\StaffPortal.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\StaffPortal.pdb
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\EntityFramework.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\MiniProfiler.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\SIS.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.Http.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.Razor.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\SIS.pdb
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\EntityFramework.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\MiniProfiler.pdb
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\MiniProfiler.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.Http.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.Razor.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+D:\WMS14 Final Beta\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+D:\WMS14 Final Beta\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+D:\WMS14 Final Beta\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\StaffPortal.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\StaffPortal.pdb
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\SIS.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Razor.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\SIS.pdb
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.xml
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.pdb
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.xml
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Razor.xml
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+D:\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\StaffPortal.dll.config
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\StaffPortal.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\StaffPortal.pdb
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.ReportViewer.Common.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.ReportViewer.WebForms.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\SIS.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Http.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Razor.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\SIS.pdb
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.ReportViewer.WebForms.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.pdb
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Http.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Razor.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+E:\My Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\StaffPortal.dll.config
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\StaffPortal.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\StaffPortal.pdb
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.ReportViewer.Common.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.ReportViewer.WebForms.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\SIS.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Http.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Razor.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\SIS.pdb
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.ReportViewer.WebForms.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.pdb
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Http.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Razor.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+E:\My Projects\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.csproj.ResolveComReference.cache
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\StaffPortal.dll.config
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\StaffPortal.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\StaffPortal.pdb
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.SqlServer.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.ReportViewer.Common.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.ReportViewer.WebForms.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.Web.Infrastructure.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Newtonsoft.Json.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\SIS.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Net.Http.Formatting.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Helpers.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Http.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Http.WebHost.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Mvc.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Razor.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\SIS.pdb
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\EntityFramework.SqlServer.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.ReportViewer.WebForms.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.pdb
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.pdb
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\MiniProfiler.EntityFramework6.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Newtonsoft.Json.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Net.Http.Formatting.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Helpers.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Http.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Http.WebHost.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Mvc.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.Razor.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Deployment.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\System.Web.WebPages.Razor.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.csprojResolveAssemblyReference.cache
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.csproj.ResolveComReference.cache
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\obj\Debug\StaffPortal.pdb
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Spire.XLS.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Spire.Pdf.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Spire.License.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Microsoft.mshtml.dll
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Spire.XLS.xml
+E:\My Projects\Development\WMS15 Final Beta v1.0\AMS14\StaffPortal\bin\Spire.Pdf.xml

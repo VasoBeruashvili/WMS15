@@ -1,0 +1,162 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "bodyPadding": 20,
+        "designer|userClassName": "AddAtribute",
+        "height": null,
+        "layout": "anchor",
+        "margin": null,
+        "title": "ატრიბუტის დამატება",
+        "titleAlign": "center",
+        "width": 676
+    },
+    "designerId": "00cdcdf3-58ca-4fa9-b971-9ddf6b0e0fbd",
+    "cn": [
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": "დასახელება",
+                "layout|anchor": "100%"
+            },
+            "designerId": "6ce0ac50-f411-4cd4-ba9e-5249ed4f8d9a"
+        },
+        {
+            "type": "Ext.form.field.ComboBox",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "editable": false,
+                "fieldLabel": "ტიპი",
+                "layout|anchor": "100%",
+                "readOnly": true
+            },
+            "designerId": "c249dc37-6482-4f19-81e8-280ee8dab4af"
+        },
+        {
+            "type": "Ext.form.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": null,
+                "hidden": true,
+                "layout|anchor": "100%"
+            },
+            "designerId": "aa639204-25ea-49fe-ad31-f7c2bc2bbfb5"
+        },
+        {
+            "type": "Ext.form.field.HtmlEditor",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": null,
+                "height": 150,
+                "hidden": true,
+                "layout|anchor": "100%"
+            },
+            "designerId": "b53f2a72-8702-4136-a1df-91bd1839f621"
+        },
+        {
+            "type": "Ext.form.field.Date",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fieldLabel": null,
+                "hidden": true,
+                "layout|anchor": "100%"
+            },
+            "designerId": "04103c7a-56fb-4780-a070-9214652454c3"
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "layout": "hbox"
+            },
+            "designerId": "8bc52c57-759e-4a1b-8c7c-1c07501a7201",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 2
+                    },
+                    "designerId": "6a71426b-db15-41b5-8425-dca1a379af0b"
+                },
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|align": "stretch",
+                        "layout": "hbox",
+                        "layout|flex": 1
+                    },
+                    "designerId": "3f42d994-4d9a-486a-b353-3945e158e2cb",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "გაუქმება"
+                            },
+                            "designerId": "0c6c883d-cff6-488a-9338-6341f3b5b502"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "margin": "0 0 0 5",
+                                "text": "შენახვა"
+                            },
+                            "designerId": "8c29c086-bca8-4da3-964e-fb1b5cc171c9"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

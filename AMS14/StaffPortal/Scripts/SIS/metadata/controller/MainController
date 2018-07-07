@@ -1,0 +1,64 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainController",
+        "stores": [
+            "MyStudentStore"
+        ]
+    },
+    "designerId": "d0703ee0-7b54-4c9a-a0c3-50f9151c5e4d",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#EmpId",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "OnEmpClick",
+                "implHandler": [
+                    "Ext.create('SIS.view.EmpIdentWindow',{\r",
+                    "    save:function(){\r",
+                    "        var model=this.getRecord();\r",
+                    "        this.close();\r",
+                    "    }\r",
+                    "}).show();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "28033a15-82e9-4eaa-8360-ba9f628ec2a1"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|controlQuery": "#droebiti",
+                "designer|targetType": "Ext.button.Button",
+                "fn": "onButtonClick1",
+                "implHandler": [
+                    "Ext.create('SIS.view.AddModule',{\r",
+                    "    save:function(){\r",
+                    "        var model=this.getRecord();\r",
+                    "    }\r",
+                    "}).show();"
+                ],
+                "name": "click",
+                "scope": "me"
+            },
+            "designerId": "4324d032-9e83-4b0b-9d49-e09c536d6665"
+        }
+    ]
+}

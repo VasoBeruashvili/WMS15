@@ -1,0 +1,329 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userClassName": "MyViewport",
+        "layout": "hbox"
+    },
+    "designerId": "40e80264-890d-4b5b-b8a6-bd84e81316e8",
+    "cn": [
+        {
+            "type": "Ext.panel.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "border": false,
+                "header": false,
+                "layout": "border",
+                "layout|flex": 1,
+                "title": "Main"
+            },
+            "designerId": "6aaa4fa7-531f-4a0c-b76e-3bbfc248a439",
+            "cn": [
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "border": false,
+                        "container|align": "stretch",
+                        "header": false,
+                        "height": null,
+                        "layout": "vbox",
+                        "layout|region": "north",
+                        "minHeight": null,
+                        "title": "Header"
+                    },
+                    "designerId": "e13329c0-82e8-4df5-a5a1-6c55bc9a51ed",
+                    "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "border": false,
+                                "header": false,
+                                "height": 100,
+                                "html": [
+                                    "\r",
+                                    "<div style=\"width:100%; height:100px; background-color:#3c3c3c;margin-bottom:0px; min-width: 1024px;\">\r",
+                                    "        <div style=\" float: left; width: 50%;\">\r",
+                                    "<img style=\"float:left; margin-left:10px; margin-right:10px;margin-top:10px; width: 95px; height: 80px;\" src=\"/Content/Resources/150px-GTU_Logo.svg[1].png\"/>\r",
+                                    "            \r",
+                                    "<p style=\"font-family:'Avaza Mtavruli';font-size:15px; color:white; margin-top:0px;margin-bottom:0px; margin-top: 8px\"><br>sasawyobo aRricxvebis</p>\r",
+                                    "            <p style=\"font-family:'Avaza Mtavruli';font-size:15px; color:white; margin-top:0px;margin-bottom:0px\">eleqtronuli</p>\r",
+                                    "<p style=\"font-family:'Avaza Mtavruli';font-size:15px; color:white; margin-top:0px;margin-bottom:0px\">sistema <span style=\"font-family: 'Sylfaen'; color: #cccccc;\">WMS15</span></p>\r",
+                                    "        </div>\r",
+                                    "        <div style=\"float: right; min-width:300px;\">\r",
+                                    "            <!--CALENDAR-->\r",
+                                    "            <div style=\"width: 80px; float: right; margin-top: 5px;\">\r",
+                                    "                <div id=\"cal\" >\r",
+                                    "                    <table width=\"80\" border=\"0\" class=\"calendar\">\r",
+                                    "                        <tbody>\r",
+                                    "                            <tr>\r",
+                                    "                                <td id=\"day\"></td>\r",
+                                    "                            </tr>\r",
+                                    "                            <tr>\r",
+                                    "                                <td height=\"30\" id=\"number\" class=\"num\"></td>\r",
+                                    "                            </tr>\r",
+                                    "                            <tr>\r",
+                                    "                                <td id=\"monthyear\" style=\"padding-bottom: 5px;\"></td>\r",
+                                    "                            </tr>\r",
+                                    "                            <tr style=\"display: none\">\r",
+                                    "                                <td id=\"ctime\" style=\"display: none\">&nbsp</td>\r",
+                                    "                            </tr>\r",
+                                    "                        </tbody>\r",
+                                    "                    </table>\r",
+                                    "                </div>\r",
+                                    "            </div>\r",
+                                    "\r",
+                                    "            <div style=\"text-align: right; color: #ffffff; margin-right: 110px;\">\r",
+                                    "<p style=\"font-weight: bold; color: #cccccc;\" id=\"department\"></p>\r",
+                                    "<p style=\"font-style: italic; color: #cccccc;\" id=\"user\"></p>\r",
+                                    "<p><a style=\"color: red;cursor:pointer;\" id='lnkLogOut'><u><img src=\"/Content/Resources/logout.png\" width=\"20\" height=\"20\" title=\"გასვლა\" /></u></a></p>\r",
+                                    "            </div>\r",
+                                    "    \r",
+                                    "        </div>\r",
+                                    "    </div>"
+                                ],
+                                "layout": null,
+                                "layout|flex": null,
+                                "maxHeight": 100,
+                                "minHeight": 100,
+                                "title": "My Panel"
+                            },
+                            "designerId": "363657fe-942c-4b3c-8145-48ea125289ff"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 40,
+                        "html": [
+                            "\r",
+                            "    <div id=\"footer_container\">\r",
+                            "        <div id=\"footer\">\r",
+                            "\r",
+                            "            <div id=\"cp\">\r",
+                            "                \r",
+                            "            </div>\r",
+                            "\r",
+                            "            <div id=\"aut\">\r",
+                            "                <div>\r",
+                            "                    ყველა უფლება დაცულია &copy 2015 შემქმნელი: ვ.ბერუაშვილი\r",
+                            "                </div>\r",
+                            "            </div>\r",
+                            "\r",
+                            "        </div>\r",
+                            "        <!-- #footer -->\r",
+                            "    </div>"
+                        ],
+                        "layout|region": "south",
+                        "title": ""
+                    },
+                    "designerId": "ef9481be-b035-4a44-9d3c-62d165d6f381"
+                },
+                {
+                    "type": "Ext.panel.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "border": false,
+                        "container|align": "stretch",
+                        "header": false,
+                        "layout": "vbox",
+                        "layout|flex": 1,
+                        "layout|region": "center",
+                        "title": "My Panel"
+                    },
+                    "designerId": "da1aabfb-06d0-4bd9-847d-f7e848aa639b",
+                    "cn": [
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "bodyCls": [
+                                    "side-panel"
+                                ],
+                                "border": false,
+                                "collapseDirection": "right",
+                                "collapsible": false,
+                                "layout|flex": null,
+                                "title": null,
+                                "width": null
+                            },
+                            "designerId": "ae73e3c5-c211-4116-9231-88d2274f68f0"
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "collapseDirection": "right",
+                                "collapsible": true,
+                                "container|align": "stretch",
+                                "designer|createAlias": null,
+                                "header": false,
+                                "layout": "hbox",
+                                "layout|flex": 1,
+                                "title": "Placeholder",
+                                "width": 1280
+                            },
+                            "designerId": "4ee03aff-17ee-4e6c-9c26-2a2f5634dcb3",
+                            "cn": [
+                                {
+                                    "type": "linkedinstance",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null
+                                    },
+                                    "designerId": "d7f49861-3bae-4988-9a1a-8292782a33b8",
+                                    "masterInstanceId": "89380af2-367b-4683-923f-6cb79d9468a6"
+                                },
+                                {
+                                    "type": "Ext.tab.Panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "activeTab": 0,
+                                        "border": null,
+                                        "header": false,
+                                        "itemId": "maintabpanel",
+                                        "layout|flex": 1,
+                                        "title": "",
+                                        "width": 1280
+                                    },
+                                    "designerId": "45931ba1-def0-4fe7-9233-bb799d56cb6c",
+                                    "cn": [
+                                        {
+                                            "type": "Ext.panel.Panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "border": false,
+                                                "container|align": "stretch",
+                                                "container|padding": null,
+                                                "iconCls": "home",
+                                                "layout": "vbox",
+                                                "padding": 10,
+                                                "title": "მთავარი"
+                                            },
+                                            "designerId": "304e4ee6-8315-4d67-8e91-41e6026b954b",
+                                            "cn": [
+                                                {
+                                                    "type": "Ext.tab.Tab",
+                                                    "reference": {
+                                                        "name": "tabConfig",
+                                                        "type": "object"
+                                                    },
+                                                    "codeClass": null,
+                                                    "designerId": "3988cc9f-5bb8-4995-ba93-266d5e46c214"
+                                                },
+                                                {
+                                                    "type": "Ext.container.Container",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "container|align": "stretch",
+                                                        "html": null,
+                                                        "layout": "hbox",
+                                                        "layout|flex": 1
+                                                    },
+                                                    "designerId": "3acf3f39-e922-4a23-9811-b22d44b322e6"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.panel.Panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "bodyCls": [
+                                    "side-panel"
+                                ],
+                                "border": false,
+                                "collapseDirection": "right",
+                                "collapsible": false,
+                                "layout|flex": null,
+                                "title": null,
+                                "width": null
+                            },
+                            "designerId": "3454a961-19a1-4d73-ad99-b30d0cfc1246"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onViewportAfterRender",
+                "implHandler": [
+                    "Ext.get('lnkLogOut').on('click', function (e, t, eOpts) {\r",
+                    "    var viewport=this;\r",
+                    "    var tabpanel=FindControl(viewport,'maintabpanel');\r",
+                    "    var safe=LogOutSafe(tabpanel);\r",
+                    "},this);"
+                ],
+                "name": "afterrender",
+                "scope": "me"
+            },
+            "designerId": "e04e21df-ce82-4d6c-adf8-3a7b2130e4c2"
+        }
+    ]
+}

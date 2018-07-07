@@ -1,0 +1,68 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "GroupActionsTreeModel"
+    },
+    "designerId": "b867541a-dde1-4104-a3aa-bf70a8e8d4e3",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID",
+                "type": "int"
+            },
+            "designerId": "a8e308ee-1635-48d8-93f4-8d67d09bef7d"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "GroupName",
+                "type": "string"
+            },
+            "designerId": "d8a182e2-18fe-42f9-9c49-80cf444ca134"
+        },
+        {
+            "type": "Ext.data.association.HasMany",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "associationKey": "MenuItems",
+                "designer|displayName": "hasManyMenuItemsModel",
+                "model": "MenuItemsModel",
+                "name": "MenuItems"
+            },
+            "designerId": "1fd4b1be-aa87-4bae-aec9-4461412c1133"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Deleted",
+                "type": "boolean"
+            },
+            "designerId": "375ae175-14f0-4ea0-9c9c-f0ade42ffbbc"
+        }
+    ]
+}

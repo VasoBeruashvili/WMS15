@@ -1,0 +1,40 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "tbltranspsaxe"
+    },
+    "designerId": "a25731e8-b6db-4f73-8f8d-bdde8b505981",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID",
+                "type": "int"
+            },
+            "designerId": "0ebb1999-93af-4c93-a2e0-c8e2a06d6dcb"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "dasaxeleba",
+                "type": "string"
+            },
+            "designerId": "80fb0240-7ef6-47de-95e0-af16f4609ffb"
+        }
+    ]
+}

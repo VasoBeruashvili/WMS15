@@ -1,0 +1,175 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ProgramConfigModel"
+    },
+    "designerId": "3423e4ab-e953-463a-ab7f-f860f089217c",
+    "cn": [
+        {
+            "type": "Ext.data.association.HasMany",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "hasManyProgramCourseConfigModel",
+                "model": "ProgramCourseConfigModel",
+                "name": "ProgramCourseConfigs"
+            },
+            "designerId": "93efdce0-99fb-4c95-8352-c6f944b94233"
+        },
+        {
+            "type": "Ext.data.association.HasMany",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "hasManyAdditionalOrganizationalUnitModel",
+                "model": "OrganizationalUnitModel",
+                "name": "AdditionalOrganizationalUnits"
+            },
+            "designerId": "711f3e96-6aef-4ac1-bc60-87841e002c10"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "OrganizationalUnitID"
+            },
+            "designerId": "1fbf6954-a4e5-4403-a8bc-78959f5b7b63"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "OrganizationalUnitName"
+            },
+            "designerId": "a3b72745-11da-4ef2-8753-0807dd1b4ac5"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "CreateDate"
+            },
+            "designerId": "fddac764-e289-46fd-abf1-5e359d9d1cd8"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "StartDate"
+            },
+            "designerId": "80422e58-dd78-44f1-9c67-c317367aa2f8"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "EndDate"
+            },
+            "designerId": "061a8a4e-5347-423f-9584-b2089fcf02ab"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "IsActive"
+            },
+            "designerId": "76153223-210c-4a1d-8c29-14efe028561f"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ProgramID"
+            },
+            "designerId": "c90f58f6-919f-4f13-9b50-9e980bb610c9"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ProgramName"
+            },
+            "designerId": "cae5c487-fde4-41d9-91f3-a236184eb2c9"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ProgramConfigStatusID",
+                "type": "int"
+            },
+            "designerId": "3844236b-76d5-4a4c-8e2b-c1815158262a"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ProgramConfigStatusName"
+            },
+            "designerId": "1a30d5d8-a0b3-4809-862c-5a05bad25e91"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID"
+            },
+            "designerId": "b0bab774-123a-4624-a61c-fc343d1b8edd"
+        }
+    ]
+}

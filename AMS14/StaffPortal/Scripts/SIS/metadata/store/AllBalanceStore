@@ -1,0 +1,51 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "designer|userClassName": "AllBalanceStore",
+        "model": "BalanceModel",
+        "storeId": "AllBalanceStore"
+    },
+    "designerId": "96709325-e18d-4fa6-82bc-4715466aa19c",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "type": "jsonajax",
+                "url": "/Home/GetBalanceByDate"
+            },
+            "designerId": "e3e4c79e-5f24-4a1c-8f7e-dbe40190e82f",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "type",
+                    "type": "string"
+                }
+            ],
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "root"
+                    },
+                    "designerId": "72957e4b-7170-499e-8722-65d3717b7b81"
+                }
+            ]
+        }
+    ]
+}

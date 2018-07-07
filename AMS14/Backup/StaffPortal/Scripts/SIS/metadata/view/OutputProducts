@@ -1,0 +1,698 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "border": false,
+        "container|align": "stretch",
+        "designer|userAlias": "outputproducts",
+        "designer|userClassName": "OutputProducts",
+        "height": 599,
+        "icon": null,
+        "iconCls": "",
+        "keyMapConfig": [
+            "{\r",
+            "    bindings: [\r",
+            "        {\r",
+            "            ctrl: false,\r",
+            "            key: Ext.EventObject.ENTER,\r",
+            "            btnItemId: 'bntSearch'\r",
+            "        },\r",
+            "        {\r",
+            "            ctrl: false,\r",
+            "            key: Ext.EventObject.ESC,\r",
+            "            btnItemId: 'btnClear'\r",
+            "        }\r",
+            "    ]\r",
+            "}"
+        ],
+        "layout": "vbox",
+        "title": "",
+        "width": 746
+    },
+    "configAlternates": {
+        "keyMapConfig": "object"
+    },
+    "designerId": "19f60c87-8db4-4e2b-bc22-fe2dfdcbc003",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "keyMapConfig",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "layout": "hbox",
+                "layout|flex": null,
+                "margin": "10 10 0 10"
+            },
+            "designerId": "d897174e-c7f3-4ab4-952c-31b63e49da4a",
+            "cn": [
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "clearCls": "x-form-clear-trigger",
+                        "cls": null,
+                        "displayField": "Name",
+                        "emptyCls": null,
+                        "emptyText": "საქონლის დასახელება",
+                        "enableKeyEvents": true,
+                        "fieldLabel": null,
+                        "itemId": "cmbProducts",
+                        "layout|flex": 1,
+                        "margin": "0 10 0 0",
+                        "minChars": 1,
+                        "selectOnFocus": true,
+                        "store": "AllProductStore",
+                        "storeClassName": "SIS.store.AllProductStore",
+                        "triggerCls": "x-form-search-trigger",
+                        "typeAhead": true,
+                        "valueField": "ID"
+                    },
+                    "designerId": "c158f83e-9cdc-4ee3-b590-c3597e5355e7",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "storeClassName",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "clearCls": "x-form-clear-trigger",
+                        "cls": null,
+                        "displayField": "Name",
+                        "emptyCls": null,
+                        "emptyText": "მყიდველის დასახელება",
+                        "enableKeyEvents": true,
+                        "fieldLabel": null,
+                        "itemId": "cmbCustomers",
+                        "layout|flex": 1,
+                        "margin": "0 10 0 0",
+                        "minChars": 1,
+                        "selectOnFocus": true,
+                        "store": "AllCustomerStore",
+                        "storeClassName": "SIS.store.AllCustomerStore",
+                        "triggerCls": "x-form-search-trigger",
+                        "typeAhead": true,
+                        "valueField": "ID"
+                    },
+                    "designerId": "01a4b465-13c2-4dbe-88f9-56900ca10e8a",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "storeClassName",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.Trigger",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "clearCls": "x-form-clear-trigger",
+                        "cls": null,
+                        "editable": false,
+                        "emptyCls": null,
+                        "emptyText": "თარიღი",
+                        "enableKeyEvents": true,
+                        "fieldLabel": null,
+                        "isTriggerField": true,
+                        "itemId": "trgDate",
+                        "layout|flex": 1,
+                        "margin": null,
+                        "maxLength": null,
+                        "pickerClassName": "SIS.view.DateRangeSelectorForm",
+                        "selectOnFocus": true,
+                        "triggerCls": "x-form-date-trigger"
+                    },
+                    "configAlternates": {
+                        "isTriggerField": "boolean"
+                    },
+                    "designerId": "a1df6303-04f5-44cf-8a77-c66114860d21",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "pickerClassName",
+                            "type": "string"
+                        },
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "isTriggerField",
+                            "type": "string"
+                        }
+                    ],
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onTrgDateAfterRender",
+                                "implHandler": [
+                                    "var beforeStr = component.beforeValueText || component.emptyText || '';\r",
+                                    "var dateToday = new Date();\r",
+                                    "var dateRange = Ext.create('SIS.model.DateRangeSelectModel');\r",
+                                    "dateRange.set('FromDate', dateToday);\r",
+                                    "dateRange.set('ToDate', dateToday);\r",
+                                    "\r",
+                                    "var obj = {\r",
+                                    "    beforeStr: beforeStr,\r",
+                                    "    formDate: dateRange.get('FromDate', dateToday),\r",
+                                    "    toDate: dateRange.get('ToDate', dateToday)\r",
+                                    "};\r",
+                                    "\r",
+                                    "component.fromDate = dateToday;\r",
+                                    "component.toDate = dateToday;\r",
+                                    "\r",
+                                    "var beforeStr = obj.beforeStr;\r",
+                                    "\r",
+                                    "if(obj.beforeStr === undefined){\r",
+                                    "    beforeStr = component.beforeValueText || component.emptyText || '';\r",
+                                    "}\r",
+                                    "\r",
+                                    "component.setRawValue(beforeStr+': '+DateFormat(dateToday) + ' '+DateFormat(dateToday));\r",
+                                    "inputEl = component.inputEl;\r",
+                                    "if (inputEl && component.emptyText && !Ext.isEmpty(obj)) {\r",
+                                    "    inputEl.removeCls(component.emptyCls);\r",
+                                    "    component.valueContainsPlaceholder = false;\r",
+                                    "}\r",
+                                    "\r",
+                                    "var form = this;\r",
+                                    "\r",
+                                    "var grdOutputDetails = FindControl(form, 'grdOutputDetails');\r",
+                                    "\r",
+                                    "grdOutputDetails.getStore().clearExtraParams();\r",
+                                    "grdOutputDetails.getStore().removeAll();\r",
+                                    "grdOutputDetails.getStore().addExtraParams({\r",
+                                    "    filter: {\r",
+                                    "        Date: component.getValue(),\r",
+                                    "        IO: 'gayidva'\r",
+                                    "    }\r",
+                                    "});\r",
+                                    "\r",
+                                    "grdOutputDetails.getStore().loadPage(1);"
+                                ],
+                                "name": "afterrender",
+                                "scope": "me"
+                            },
+                            "designerId": "daa30d04-3201-4052-a798-39a3ca52c16a"
+                        },
+                        {
+                            "type": "basicfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onTriggerClick",
+                                "implHandler": [
+                                    "var me = this;\r",
+                                    "var beforeStr = this.beforeValueText || this.emptyText || '';\r",
+                                    "\r",
+                                    "var win = Ext.create(this.pickerClassName, {\r",
+                                    "    modal:true,\r",
+                                    "    save: function(rangeModel){\r",
+                                    "        var obj = {\r",
+                                    "            beforeStr: beforeStr,\r",
+                                    "            fromDate: rangeModel.get('FromDate'),\r",
+                                    "            toDate: rangeModel.get('ToDate')\r",
+                                    "        };\r",
+                                    "\r",
+                                    "        me.setValue(obj);\r",
+                                    "\r",
+                                    "        return EnumDialogResult.Success;\r",
+                                    "    }\r",
+                                    "});\r",
+                                    "\r",
+                                    "win.setData();\r",
+                                    "win.show();"
+                                ]
+                            },
+                            "designerId": "cd2578e4-c6a0-4f47-a9f2-e99b8595dfb9"
+                        },
+                        {
+                            "type": "basicfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "getValue",
+                                "implHandler": [
+                                    "var obj = !(this.fromDate && this.toDate) ? null : {\r",
+                                    "    FromDate: this.fromDate,\r",
+                                    "    ToDate: this.toDate\r",
+                                    "};\r",
+                                    "\r",
+                                    "return obj;"
+                                ]
+                            },
+                            "designerId": "fa60b97f-8650-49ed-9ad8-8f2cdd152be6"
+                        },
+                        {
+                            "type": "basicfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "obj"
+                                ],
+                                "fn": "setValue",
+                                "implHandler": [
+                                    "if(!IsNullOrEmpty(obj)){\r",
+                                    "    var from = obj.fromDate;\r",
+                                    "    var to = obj.toDate;\r",
+                                    "\r",
+                                    "    this.fromDate = from;\r",
+                                    "    this.toDate = to;\r",
+                                    "\r",
+                                    "    var beforeStr = obj.beforeStr;\r",
+                                    "\r",
+                                    "    if(obj.beforeStr === undefined){\r",
+                                    "        beforeStr = this.beforeValueText || this.emptyText || '';\r",
+                                    "    }\r",
+                                    "\r",
+                                    "    this.setRawValue(beforeStr+': '+DateFormat(from) + ' '+DateFormat(to));\r",
+                                    "    inputEl = this.inputEl;\r",
+                                    "    if (inputEl && this.emptyText && !Ext.isEmpty(obj)) {\r",
+                                    "        inputEl.removeCls(this.emptyCls);\r",
+                                    "        this.valueContainsPlaceholder = false;\r",
+                                    "    }\r",
+                                    "}"
+                                ]
+                            },
+                            "designerId": "c50e0b5c-cb38-441a-ad75-3e8c9b946afe"
+                        },
+                        {
+                            "type": "basicfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "reset",
+                                "implHandler": [
+                                    "this.fromDate = null;\r",
+                                    "this.toDate = null;\r",
+                                    "\r",
+                                    "this.setRawValue('');"
+                                ]
+                            },
+                            "designerId": "cbf00188-6ea1-43d1-b0bb-cbc634238c57"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "icon-search",
+                        "itemId": "bntSearch",
+                        "layout|flex": null,
+                        "margin": "0 10 0 15",
+                        "text": "",
+                        "tooltip": [
+                            "ძებნა"
+                        ]
+                    },
+                    "designerId": "5235b32c-1a2a-4322-8db2-7200d099b161",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onBntSearchClick",
+                                "implHandler": [
+                                    "var form = button.up('outputproducts');\r",
+                                    "\r",
+                                    "var grdOutputDetails = FindControl(form, 'grdOutputDetails');\r",
+                                    "var cmbProducts = FindControl(form, 'cmbProducts');\r",
+                                    "var cmbCustomers = FindControl(form, 'cmbCustomers');\r",
+                                    "var trgDate = FindControl(form, 'trgDate');\r",
+                                    "\r",
+                                    "grdOutputDetails.getStore().clearExtraParams();\r",
+                                    "grdOutputDetails.getStore().removeAll();\r",
+                                    "grdOutputDetails.getStore().addExtraParams({\r",
+                                    "    filter: {\r",
+                                    "        ProductID: cmbProducts.getValue() || null,\r",
+                                    "        CustomerID: cmbCustomers.getValue() || null,\r",
+                                    "        Date: trgDate.getValue() || null,\r",
+                                    "        IO: \"gayidva\"\r",
+                                    "    }\r",
+                                    "});\r",
+                                    "\r",
+                                    "grdOutputDetails.getStore().loadPage(1);"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "designerId": "cc0204b1-f4a7-4ea7-8e64-6d82c7365bf7"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "hidden": null,
+                        "iconCls": "icon-clear",
+                        "itemId": "btnClear",
+                        "layout|flex": null,
+                        "margin": null,
+                        "text": "",
+                        "tooltip": [
+                            "გასუფთავება"
+                        ]
+                    },
+                    "designerId": "ce47806a-c9a4-4681-b540-1ba806d3cac5",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onBtnClearClick",
+                                "implHandler": [
+                                    "var form = button.up('outputproducts');\r",
+                                    "\r",
+                                    "var grdOutputDetails = FindControl(form, 'grdOutputDetails');\r",
+                                    "var cmbProducts = FindControl(form, 'cmbProducts');\r",
+                                    "var cmbCustomers = FindControl(form, 'cmbCustomers');\r",
+                                    "var trgDate = FindControl(form, 'trgDate');\r",
+                                    "\r",
+                                    "cmbProducts.reset();\r",
+                                    "cmbCustomers.reset();\r",
+                                    "trgDate.reset();\r",
+                                    "\r",
+                                    "grdOutputDetails.getStore().clearExtraParams();\r",
+                                    "grdOutputDetails.getStore().removeAll();"
+                                ],
+                                "name": "click",
+                                "scope": "me"
+                            },
+                            "designerId": "a30d9342-2764-4c3c-82b0-05b54645e786"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.grid.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "grdOutputDetails",
+                "layout|flex": 1,
+                "margin": "10 10 10 10",
+                "normalViewConfig": null,
+                "store": "AllDetailStore",
+                "storeClassName": "SIS.store.AllDetailStore",
+                "title": ""
+            },
+            "designerId": "7c10d801-1e11-4137-8d22-6eac09ac8539",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "storeClassName",
+                    "type": "string"
+                }
+            ],
+            "cn": [
+                {
+                    "type": "Ext.grid.View",
+                    "reference": {
+                        "name": "viewConfig",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "stripeRows": false
+                    },
+                    "designerId": "9c501450-b610-4f9b-b2e8-1c1d03761d4b",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "record",
+                                    "rowIndex",
+                                    "rowParams",
+                                    "store"
+                                ],
+                                "fn": "getRowClass",
+                                "implHandler": [
+                                    "return 'other-row';"
+                                ]
+                            },
+                            "designerId": "68d1ba71-e9a6-4230-8ba4-3d6e01320eaa"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.toolbar.Paging",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "afterPageText": "{0}-დან",
+                        "beforePageText": "გვერდი",
+                        "displayInfo": true,
+                        "displayMsg": "ნაჩვენებია {0} - {1} სულ  {2}",
+                        "dock": "bottom",
+                        "emptyMsg": "მონაცემები არ არის",
+                        "firstText": "პირველი გვერდი",
+                        "lastText": "ბოლო გვერდი",
+                        "nextText": "შემდეგი გვერდი",
+                        "prevText": "წინა გვერდი",
+                        "refreshText": "განახლება",
+                        "store": "AllDetailStore",
+                        "storeClassName": "SIS.store.AllDetailStore",
+                        "width": 360
+                    },
+                    "designerId": "c3bf0537-c690-469a-8344-f744a3a08756",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "storeClassName",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "ProductName",
+                        "flex": 1,
+                        "text": "დასახელება"
+                    },
+                    "designerId": "a8e7ffd6-c5cb-4d92-8ac9-6abb6e4303be"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "OutputAmount",
+                        "flex": 1,
+                        "text": "გაყიდული რაოდენობა"
+                    },
+                    "designerId": "dcfdc2e2-14d8-4c93-8d78-750f2bed0a1f"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "SizeUnitName",
+                        "flex": 1,
+                        "text": "ზომის ერთეული"
+                    },
+                    "designerId": "f1c3f31f-66b3-454b-9b09-d226757fa603"
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "OutputPrice",
+                        "flex": 1,
+                        "text": "გასაყიდი ფასი"
+                    },
+                    "designerId": "9ebee96b-c551-49a8-9841-64a56a02b859",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "value",
+                                    "metaData",
+                                    "record",
+                                    "rowIndex",
+                                    "colIndex",
+                                    "store",
+                                    "view"
+                                ],
+                                "fn": "renderer",
+                                "implHandler": [
+                                    "return record.get('OutputPrice') + ' ლარი';"
+                                ]
+                            },
+                            "designerId": "a8289018-9f88-4e65-a9c2-7509c6aa893b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "OutputPrice",
+                        "flex": 1,
+                        "text": "ღირებულება"
+                    },
+                    "designerId": "898cae72-402a-48d4-ac92-062032be8d43",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "value",
+                                    "metaData",
+                                    "record",
+                                    "rowIndex",
+                                    "colIndex",
+                                    "store",
+                                    "view"
+                                ],
+                                "fn": "renderer",
+                                "implHandler": [
+                                    "return record.get('OutputPrice') * record.get('OutputAmount') + ' ლარი';"
+                                ]
+                            },
+                            "designerId": "874c18cb-fd1c-479a-8017-004d0b12f255"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "CustomerName",
+                        "flex": 1,
+                        "text": "მყიდველი"
+                    },
+                    "designerId": "129bbbf3-b044-407b-8374-00b561f4b932"
+                },
+                {
+                    "type": "Ext.grid.column.Date",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "Date",
+                        "flex": 1,
+                        "format": "d.m.Y",
+                        "text": "თარიღი"
+                    },
+                    "designerId": "1842ae5a-001d-4d02-ac8f-babe32a7c26f"
+                }
+            ]
+        }
+    ]
+}

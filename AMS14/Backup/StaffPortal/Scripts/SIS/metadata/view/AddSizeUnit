@@ -1,0 +1,236 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userAlias": "addsizeunit",
+        "designer|userClassName": "AddSizeUnit",
+        "height": 170,
+        "keyMapConfig": [
+            "{\r",
+            "    bindings: [\r",
+            "        {\r",
+            "            ctrl: false,\r",
+            "            key: Ext.EventObject.ENTER,\r",
+            "            btnItemId: 'btnSave'\r",
+            "        }\r",
+            "    ]\r",
+            "}"
+        ],
+        "layout": "vbox",
+        "modal": true,
+        "title": "ზომის ერთეულის დამატება",
+        "width": 390
+    },
+    "configAlternates": {
+        "keyMapConfig": "object"
+    },
+    "designerId": "be04e376-1a68-4c46-9f27-6294785f48a0",
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "keyMapConfig",
+            "type": "string"
+        }
+    ],
+    "cn": [
+        {
+            "type": "Ext.form.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "allowBlank": false,
+                "fieldLabel": "დასახელება",
+                "itemId": "txtName",
+                "margin": "10 10 10 10"
+            },
+            "designerId": "94a8e081-7ddf-42cb-bc6e-81da650f980e"
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "layout": "hbox",
+                "layout|flex": null,
+                "margin": "45 10 10 10"
+            },
+            "designerId": "7a8cc8b7-6747-4b13-bb3c-d36c99becacc",
+            "cn": [
+                {
+                    "type": "Ext.container.Container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1
+                    },
+                    "designerId": "c1d7757e-64c6-49a7-9cc9-7804abeb0f7c"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "icon-save24",
+                        "itemId": "btnSave",
+                        "margin": "0 5 0 0",
+                        "scale": "medium",
+                        "text": "",
+                        "tooltip": [
+                            "დამატება"
+                        ]
+                    },
+                    "designerId": "8ea5b5d4-a30c-4693-8364-182de8c2a8c1",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "var form = button.up('addsizeunit');\r",
+                                    "\r",
+                                    "var txtName = FindControl(form, 'txtName');\r",
+                                    "\r",
+                                    "var model = Ext.create('SIS.model.SizeUnitModel');\r",
+                                    "\r",
+                                    "if(form.validate())\r",
+                                    "{\r",
+                                    "    model.set('Name', txtName.getValue());\r",
+                                    "    \r",
+                                    "    if(Ext.isFunction(form.save))\r",
+                                    "    {\r",
+                                    "        form.save(model);\r",
+                                    "        \r",
+                                    "        form.close();\r",
+                                    "    }\r",
+                                    "}"
+                                ]
+                            },
+                            "designerId": "3555b19d-13a1-4649-89d0-118c982ae1d0"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "iconCls": "icon-close24",
+                        "itemId": "btnClose",
+                        "scale": "medium",
+                        "text": "",
+                        "tooltip": [
+                            "დახურვა"
+                        ]
+                    },
+                    "designerId": "3ed035a6-df19-4f41-8428-6893d7116bff",
+                    "cn": [
+                        {
+                            "type": "fixedfunction",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|params": [
+                                    "button",
+                                    "e"
+                                ],
+                                "fn": "handler",
+                                "implHandler": [
+                                    "var form = button.up('addsizeunit');\r",
+                                    "\r",
+                                    "form.close();"
+                                ]
+                            },
+                            "designerId": "d36e2cf7-189b-4261-867c-42b144d09214"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "validate",
+                "implHandler": [
+                    "var form = this;\r",
+                    "var txtName = FindControl(form, 'txtName');\r",
+                    "\r",
+                    "var valid = true;\r",
+                    "\r",
+                    "valid = valid && txtName.validate();\r",
+                    "\r",
+                    "return valid;"
+                ]
+            },
+            "designerId": "e0975eb8-7de8-4f0d-9e28-9e6c0ba4120e"
+        },
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": null,
+                "header": false,
+                "layout": null,
+                "layout|flex": 1,
+                "title": null
+            },
+            "designerId": "75d6d202-7c90-4f04-ac29-b73f68fbb457"
+        },
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "bodyPadding": null,
+                "header": false,
+                "layout|flex": 1,
+                "title": null
+            },
+            "designerId": "ebf9ba22-c7d1-4854-8ebd-72ee7afc1f74"
+        }
+    ]
+}

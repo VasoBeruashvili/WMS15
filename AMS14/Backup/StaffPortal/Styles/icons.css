@@ -1,0 +1,30 @@
+﻿
+
+.icon-add {
+    background: url('Content/Resources/add16.png');
+    background-repeat: no-repeat;
+}
+
+.icon-edit {
+        background: url('Content/Resources/edit.png');
+    background-repeat: no-repeat;
+}
+
+.icon-view {
+    background: url('Content/Resources/add.png');
+    background-repeat: no-repeat;
+}
+
+.icon-delete {
+    background: url('Content/Resources/delete.png');
+    background-repeat: no-repeat;
+}
+
+.icon-clear {
+    background: url('Content/Resources/clear.png');
+    background-repeat: no-repeat;
+}
+
+.icon-search {
+}
+

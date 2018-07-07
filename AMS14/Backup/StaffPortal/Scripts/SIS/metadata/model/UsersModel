@@ -1,0 +1,109 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "UsersModel"
+    },
+    "designerId": "18173b32-f377-42d2-b26d-5d8efe104bdc",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID",
+                "type": "int"
+            },
+            "designerId": "888d8b45-d296-4cd1-a55a-51fd2e427b48"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "UserName",
+                "type": "string"
+            },
+            "designerId": "7d531319-fb7f-4cc7-a4d6-dbca019a38da"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "FirstName",
+                "type": "string"
+            },
+            "designerId": "65d0d573-b63d-40e8-b4df-763ddc111866"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "LastName",
+                "type": "string"
+            },
+            "designerId": "dba1ca11-893e-4758-a135-d0e446b67d7a"
+        },
+        {
+            "type": "Ext.data.association.HasMany",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "associationKey": "children",
+                "designer|displayName": "hasManyGroupsModel",
+                "model": "GroupsModel",
+                "name": "children"
+            },
+            "designerId": "834e50f8-e93c-4fcf-81b0-f0a80ad5af11"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Gender",
+                "type": "string"
+            },
+            "designerId": "2aa93e49-dad7-456e-bd48-35cd4da9da02"
+        },
+        {
+            "type": "Ext.data.association.HasMany",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "associationKey": "children",
+                "designer|displayName": "hasManyUsersModel",
+                "model": "UsersModel",
+                "name": "children"
+            },
+            "designerId": "4da989af-7f6f-494c-a8c2-f2c948d1bf6e"
+        }
+    ]
+}

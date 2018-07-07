@@ -1,0 +1,46 @@
+///////////////////////////////////////////// done
+GetDocumentByVersion(documentVersionID)
+{
+	model=CreateModel(response, 'DocumentModel'); -> DocumentPanel or [DocumentWindow];
+														readOnly: true
+														formModel: model
+}
+
+//////////////////////////////////////////////// done
+ProcessSearch PagingToolbar no changes data
+
+/////////////////////////////////////////////// done
+TaskSearch Action Column 404 Error
+
+////////////////////////////////////////////// done all
+pagingtoolbars ar mushaoben
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////
+processsearchpanel - actioncolumn question
+
+
+/////////////////////////////////////////////// done
+mishas forma
+
+********************************************************
+PersonIdentificationSourceName - > PersonSearchWindow 
+TaskPanel -> chckHideDone
+processsearchpanel - actioncolumn question

@@ -1,0 +1,67 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ExcelProductModel"
+    },
+    "designerId": "a7070259-a728-4fc9-a1a7-705b7b61b1a1",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ID",
+                "type": "int"
+            },
+            "designerId": "591d19d9-d701-4694-9c34-07cfa7079d5c"
+        },
+        {
+            "type": "Ext.data.association.HasMany",
+            "reference": {
+                "name": "hasMany",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "associationKey": "ExcelNode",
+                "designer|displayName": "hasManyOutcomeProductModel",
+                "model": "OutcomeProductModel",
+                "name": "ExcelNode"
+            },
+            "designerId": "2a1c8ea0-15c2-47fd-868e-499efa0a1f3d"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Name",
+                "type": "string"
+            },
+            "designerId": "1c9eceb8-5827-4e8f-bc2d-1acd59bfc69f"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "CurrentUserID"
+            },
+            "designerId": "fe52eb3b-ddee-40a2-8b75-d24e1b7f8eec"
+        }
+    ]
+}
